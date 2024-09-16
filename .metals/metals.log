@@ -1,0 +1,819 @@
+2024.08.05 15:39:35 INFO  Started: Metals version 1.3.5 in folders '/home/shah/IdeaProjects/trading' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6e234be]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@123be5f9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6e234be]
+2024.08.05 15:39:35 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.05 15:39:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:39:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:12 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:13 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:13 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:13 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:13 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:18 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:22 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:21 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:22 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:22 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:22 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:23 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:34 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:34 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:34 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:42 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:42 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:44 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:48 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:56 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:57 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:52:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:01 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:15 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala:13: error: [dialect scala213] ; expected but identifier found
+import dev.profunktor.pulsar.Config as PulsarConfig
+                                    ^
+2024.08.05 15:53:15 WARN  no build target for: /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala
+2024.08.05 15:53:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:24 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 05, 2024 3:53:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 403
+2024.08.05 15:53:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:25 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:26 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:27 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:29 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:30 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:31 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:32 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:33 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:35 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:36 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:37 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:38 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:39 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:40 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:41 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:42 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:43 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:44 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:44 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:44 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:44 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:45 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:46 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 05, 2024 3:53:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 580
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:47 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:50 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:49 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:50 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:52 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:51 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:52 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:53 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:54 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:55 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:56 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:58 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:53:59 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:00 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:01 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:01 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:01 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:01 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:03 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:03 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:02 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:03 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:04 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:05 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:06 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:06 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:06 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:06 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:06 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:08 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:07 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:08 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:09 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:09 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:09 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:09 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:12 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:13 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:16 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:54:16 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:00 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.08.05 15:55:01 INFO  [info] welcome to sbt 1.10.1 (Oracle Corporation Java 21.0.1)
+2024.08.05 15:55:01 INFO  [info] loading global plugins from /home/shah/.sbt/1.0/plugins
+2024.08.05 15:55:04 INFO  [info] loading settings for project trading-build-build-build from metals.sbt ...
+2024.08.05 15:55:04 INFO  [info] loading project definition from /home/shah/IdeaProjects/trading/project/project/project
+2024.08.05 15:55:04 INFO  [info] loading settings for project trading-build-build from metals.sbt ...
+2024.08.05 15:55:05 INFO  [info] loading project definition from /home/shah/IdeaProjects/trading/project/project
+2024.08.05 15:55:06 INFO  [success] Generated .bloop/trading-build-build.json
+2024.08.05 15:55:06 INFO  [success] Total time: 1 s, completed Aug 5, 2024, 3:55:06 PM
+2024.08.05 15:55:06 INFO  [info] loading settings for project trading-build from metals.sbt,plugins.sbt ...
+2024.08.05 15:55:06 INFO  [info] loading project definition from /home/shah/IdeaProjects/trading/project
+2024.08.05 15:55:10 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:10 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:10 INFO  [success] Generated .bloop/trading-build.json
+2024.08.05 15:55:10 INFO  [info] compiling 1 Scala source to /home/shah/IdeaProjects/trading/project/target/scala-2.12/sbt-1.0/classes ...
+2024.08.05 15:55:13 INFO  [info] done compiling
+2024.08.05 15:55:13 INFO  [success] Total time: 6 s, completed Aug 5, 2024, 3:55:13 PM
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:14 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:15 INFO  [info] loading settings for project root from build.sbt ...
+2024.08.05 15:55:15 INFO  [info] resolving key references (20996 settings) ...
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:17 INFO  [info] 
+2024.08.05 15:55:17 INFO  [info] ░█▀▀░█░█░█▀█░█▀▀░▀█▀░▀█▀░█▀█░█▀█░█▀█░█░░░░░█▀▀░█░█░█▀▀░█▀█░▀█▀░░░░░█▀▄░█▀▄░▀█▀░█░█░█▀▀░█▀█░░░█▀█░█▀▄░█▀▀░█░█░▀█▀░▀█▀░█▀▀░█▀▀░▀█▀░█░█░█▀▄░█▀▀
+2024.08.05 15:55:17 INFO  [info] ░█▀▀░█░█░█░█░█░░░░█░░░█░░█░█░█░█░█▀█░█░░░░░█▀▀░▀▄▀░█▀▀░█░█░░█░░▄▄▄░█░█░█▀▄░░█░░▀▄▀░█▀▀░█░█░░░█▀█░█▀▄░█░░░█▀█░░█░░░█░░█▀▀░█░░░░█░░█░█░█▀▄░█▀▀
+2024.08.05 15:55:17 INFO  [info] ░▀░░░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░░▀▀▀░░▀░░▀▀▀░▀░▀░░▀░░░░░░▀▀░░▀░▀░▀▀▀░░▀░░▀▀▀░▀░▀░░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀
+2024.08.05 15:55:17 INFO  [info] 
+2024.08.05 15:55:17 INFO  [info] Powered by Scala 3.4.1
+2024.08.05 15:55:17 INFO  [info] 
+2024.08.05 15:55:17 INFO  [info] Get the book at:  https://leanpub.com/feda
+2024.08.05 15:55:17 INFO  [info] 
+2024.08.05 15:55:17 INFO  [info] Project: root 
+2024.08.05 15:55:17 INFO  [info]   
+2024.08.05 15:55:17 INFO  [info] Useful sbt tasks:
+2024.08.05 15:55:17 INFO  [info] a. lint - Run scalafmtAll adn scalafix OrganizeImports rule
+2024.08.05 15:55:17 INFO  [info] b. smoke - Run smoke tests (smokey)
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:17 INFO  [success] Generated .bloop/root-test.json
+2024.08.05 15:55:17 INFO  [success] Generated .bloop/root.json
+2024.08.05 15:55:17 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/domainJS-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/domainJS.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/webapp.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/webapp-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/domainJVM.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/domainJVM-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/lib.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/lib-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/core.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/core-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/forecasts-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/processor-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/processor.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/snapshots-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/snapshots.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/smokey.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/forecasts.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/smokey-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/alerts-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/alerts.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/feed.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/feed-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/tracing.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/ws.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/ws-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/tracing-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/it.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/it-test.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/demo.json
+2024.08.05 15:55:18 INFO  [success] Generated .bloop/demo-test.json
+2024.08.05 15:55:18 INFO  [success] Total time: 1 s, completed Aug 5, 2024, 3:55:19 PM
+2024.08.05 15:55:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:19 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:19 INFO  time: ran 'sbt bloopInstall' in 18s
+2024.08.05 15:55:19 INFO  Attempting to connect to the build server...
+2024.08.05 15:55:19 INFO  Replacing bloop java home /home/shah/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35 with java home at /usr/lib/jvm/open-jdk-21.
+2024.08.05 15:55:20 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:20 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:20 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/shah/IdeaProjects/trading/.metals/bsp.trace.json or /home/shah/.cache/metals/bsp.trace.json
+2024.08.05 15:55:25 INFO  Attempting to connect to the build server...
+2024.08.05 15:55:25 INFO  Attempting to connect to the build server...
+2024.08.05 15:55:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/shah/IdeaProjects/trading/project/project/.metals/bsp.trace.json or /home/shah/.cache/metals/bsp.trace.json
+2024.08.05 15:55:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/shah/IdeaProjects/trading/project/.metals/bsp.trace.json or /home/shah/.cache/metals/bsp.trace.json
+2024.08.05 15:55:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:28 INFO  no build target found for /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 15:55:28 INFO  time: Connected to build server in 9.49s
+2024.08.05 15:55:28 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.05 15:55:29 INFO  time: Imported build in 0.36s
+2024.08.05 15:55:29 INFO  running doctor check
+2024.08.05 15:55:29 INFO  java targets: smokey-test, trading-build, processor-test, webapp-test, alerts, feed-test, alerts-test, forecasts, feed, it, ws, snapshots-test, snapshots, root, domainJS-test, core, demo, domainJVM-test, processor, tracing, root-test, ws-test, demo-test, forecasts-test, trading-build-build, lib, smokey, domainJS, tracing-test, domainJVM, webapp, lib-test, it-test, core-test
+Aug 05, 2024 3:55:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 879
+Aug 05, 2024 3:55:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 885
+2024.08.05 15:55:39 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- src/main/scala
+- modules/alerts/src/main/scala
+- src/test/scala
+2024.08.05 15:55:41 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.05 15:55:57 INFO  time: indexed workspace in 28s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 15:55:58 INFO  compiling alerts (1 scala source)
+2024.08.05 15:56:01 INFO  time: compiled alerts in 3.44s
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:01 INFO  compiling alerts (1 scala source)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 15:56:01 INFO  Generated JavaScript file '/home/shah/IdeaProjects/trading/.bloop/domainJS/domainJS-test-js'
+2024.08.05 15:56:01 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/shah/IdeaProjects/trading/modules/domain/js/node_modules
+2024.08.05 15:56:02 INFO  time: compiled alerts in 0.9s
+2024.08.05 15:56:02 INFO  Generated JavaScript file '/home/shah/IdeaProjects/trading/.bloop/webapp/webapp-test-js'
+2024.08.05 15:56:02 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/shah/IdeaProjects/trading/modules/ws-client/node_modules
+2024.08.05 15:56:11 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:42 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala:13: error: [dialect scala213] ; expected but identifier found
+import dev.profunktor.pulsar.Config as PulsarConfig
+                                    ^
+2024.08.05 15:56:42 INFO  compiling alerts (1 scala source)
+2024.08.05 15:56:43 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 15:56:42 INFO  time: compiled alerts in 0.42s
+2024.08.05 15:56:46 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 16:12:56 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 16:12:58 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/alerts/src/main/scala/trading/alerts/Config.scala:13: error: [dialect scala213] ; expected but identifier found
+import dev.profunktor.pulsar.Config as PulsarConfig
+                                    ^
+2024.08.05 16:12:58 INFO  compiling alerts (1 scala source)
+2024.08.05 16:12:58 INFO  time: compiled alerts in 0.24s
+2024.08.05 16:13:00 WARN  Target root /home/shah/IdeaProjects/trading/modules/alerts/target/scala-3.4.1/meta does not exist
+2024.08.05 16:16:09 INFO  compiling domainjvm (1 scala source)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 16:16:09 INFO  time: compiled domainJVM in 0.33s
+2024.08.05 16:16:09 INFO  compiling domainjvm (1 scala source)
+2024.08.05 16:16:09 INFO  time: compiled domainJVM in 53ms
+2024.08.05 16:16:09 INFO  compiling domainjvm (1 scala source)
+2024.08.05 16:16:09 INFO  time: compiled domainJVM in 45ms
+2024.08.05 16:16:09 INFO  compiling alerts (1 scala source)
+2024.08.05 16:16:09 INFO  time: compiled alerts in 0.23s
+2024.08.05 16:16:09 INFO  compiling domainjvm (1 scala source)
+2024.08.05 16:16:09 INFO  time: compiled domainJVM in 48ms
+2024.08.05 16:16:09 INFO  compiling alerts (1 scala source)
+2024.08.05 16:16:09 INFO  time: compiled alerts in 0.23s
+Aug 05, 2024 4:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1526
+Aug 05, 2024 4:19:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shah/IdeaProjects/trading/.metals/.reports/metals-full/2024-08-05/r_compiler-error_(domainJVM)_16-19-04-712.md
+Aug 05, 2024 4:20:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shah/IdeaProjects/trading/.metals/.reports/metals-full/2024-08-05/r_compiler-error_(domainJVM)_16-20-08-499.md
+2024.08.05 16:20:45 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain.scala:13: error: [dialect scala213] ; expected but . found
+export Extensions.*
+                 ^
+2024.08.05 16:20:45 INFO  compiling domainjvm (1 scala source)
+2024.08.05 16:20:47 INFO  time: compiled domainJVM in 1.73s
+2024.08.05 16:22:23 INFO  compiling domainjvm (2 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 16:22:23 INFO  time: compiled domainJVM in 0.98s
+2024.08.05 16:22:23 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:22:25 INFO  time: compiled domainJVM in 0.85s
+2024.08.05 16:27:47 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain/OrphanInstances.scala:12: error: [dialect scala213] type application is not allowed for postfix operators
+  given Eq[Instant] = Eq.by(_.getEpochSecond)
+                    ^
+2024.08.05 16:27:47 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:27:48 INFO  time: compiled domainJVM in 1s
+2024.08.05 16:37:44 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain/OrphanInstances.scala:12: error: [dialect scala213] type application is not allowed for postfix operators
+  given Eq[Instant] = Eq.by(_.getEpochSecond)
+                    ^
+2024.08.05 16:37:44 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:37:45 INFO  time: compiled domainJVM in 1.12s
+2024.08.05 16:37:47 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain.scala:13: error: [dialect scala213] ; expected but . found
+export Extensions.*
+                 ^
+2024.08.05 16:37:47 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:37:47 INFO  time: compiled domainJVM in 0.79s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 16:38:11 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:38:11 INFO  time: compiled domainJVM in 0.74s
+2024.08.05 16:38:11 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:38:12 INFO  time: compiled domainJVM in 0.71s
+2024.08.05 16:38:16 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain/OrphanIntances.scala:12: error: [dialect scala213] type application is not allowed for postfix operators
+  given Eq[Instant] = Eq.by(_.getEpochSecond)
+                    ^
+2024.08.05 16:38:16 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:38:16 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/domain/OrphanIntances.scala:12: error: [dialect scala213] type application is not allowed for postfix operators
+  given Eq[Instant] = Eq.by(_.getEpochSecond)
+                    ^
+2024.08.05 16:38:16 INFO  time: compiled domainJVM in 0.68s
+2024.08.05 16:38:16 INFO  compiling domainjvm (2 scala sources)
+2024.08.05 16:38:17 INFO  time: compiled domainJVM in 0.75s
+2024.08.05 16:39:07 INFO  compiling domainjvm (3 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 16:39:07 INFO  time: compiled domainJVM in 0.67s
+2024.08.05 16:39:07 INFO  compiling domainjvm (3 scala sources)
+2024.08.05 16:39:09 INFO  time: compiled domainJVM in 0.66s
+2024.08.05 16:41:00 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/ext.scala:5: error: [dialect scala213] ; expected but : found
+object Extensions:
+                 ^
+2024.08.05 16:41:00 INFO  compiling domainjvm (3 scala sources)
+2024.08.05 16:41:00 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/ext.scala:5: error: [dialect scala213] ; expected but : found
+object Extensions:
+                 ^
+2024.08.05 16:41:00 INFO  time: compiled domainJVM in 0.66s
+2024.08.05 16:41:00 INFO  compiling domainjvm (3 scala sources)
+2024.08.05 16:41:01 INFO  time: compiled domainJVM in 0.68s
+2024.08.05 16:41:42 INFO  compiling domainjvm (4 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Aug 05, 2024 4:41:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6039
+2024.08.05 16:41:42 INFO  time: compiled domainJVM in 0.77s
+2024.08.05 16:41:42 INFO  compiling domainjvm (4 scala sources)
+2024.08.05 16:41:44 INFO  time: compiled domainJVM in 0.83s
+2024.08.05 16:43:13 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/Wrapper.scala:5: error: [dialect scala213] ; expected but : found
+trait Wrapper[A, B]:
+                   ^
+2024.08.05 16:43:13 INFO  compiling domainjvm (4 scala sources)
+2024.08.05 16:43:13 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/Wrapper.scala:5: error: [dialect scala213] ; expected but : found
+trait Wrapper[A, B]:
+                   ^
+2024.08.05 16:43:13 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/Wrapper.scala:5: error: [dialect scala213] ; expected but : found
+trait Wrapper[A, B]:
+                   ^
+2024.08.05 16:43:13 INFO  time: compiled domainJVM in 0.73s
+2024.08.05 16:43:13 INFO  compiling domainjvm (4 scala sources)
+2024.08.05 16:43:15 INFO  time: compiled domainJVM in 0.66s
+2024.08.05 16:50:26 INFO  compiling domainjvm (5 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2024.08.05 16:50:26 INFO  time: compiled domainJVM in 0.79s
+2024.08.05 16:50:26 INFO  compiling domainjvm (5 scala sources)
+2024.08.05 16:50:28 INFO  time: compiled domainJVM in 0.7s
+Aug 05, 2024 4:51:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7232
+Aug 05, 2024 4:52:45 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:52:45 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:52:46 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:52:46 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:55:18 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:55:18 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:55:18 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+Aug 05, 2024 4:55:18 PM dotty.tools.pc.CompilerSearchVisitor visitClassfile
+WARNING: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+dotty.tools.dotc.core.MissingType: cannot resolve reference to type cse.type.Result
+the classfile defining the type might be missing from the classpath
+
+2024.08.05 16:56:14 WARN  Using indexes to guess the definition of inline
+2024.08.05 16:56:14 WARN  Using indexes to guess the definition of inline
+2024.08.05 17:01:13 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/Newtype.scala:9: error: [dialect scala213] ; expected but : found
+abstract class Newt[A]:
+                      ^
+2024.08.05 17:01:13 INFO  compiling domainjvm (5 scala sources)
+2024.08.05 17:01:13 ERROR scalafmt: /home/shah/IdeaProjects/trading/modules/domain/shared/src/main/scala/trading/Newtype.scala:9: error: [dialect scala213] ; expected but : found
+abstract class Newt[A]:
+                      ^
+2024.08.05 17:01:13 INFO  time: compiled domainJVM in 0.91s
+2024.08.05 17:01:13 INFO  compiling domainjvm (5 scala sources)
+2024.08.05 17:01:15 INFO  time: compiled domainJVM in 0.84s
+2024.08.06 09:24:31 INFO  Shutting down server
+2024.08.06 09:24:31 INFO  shutting down Metals
+2024.08.06 09:24:31 INFO  Shut down connection with build server.
+2024.08.06 09:24:31 INFO  Shut down connection with build server.
+2024.08.06 09:24:31 INFO  Shut down connection with build server.
+2024.08.06 09:24:31 INFO  Exiting server

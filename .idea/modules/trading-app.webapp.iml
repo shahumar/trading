@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="webapp [file:/home/shah/IdeaProjects/trading/]" external.linked.project.path="$MODULE_DIR$/../../modules/ws-client" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" external.system.module.type="nestedProject" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/../../modules/ws-client/target/scala-3.4.1/classes" />
+    <output-test url="file://$MODULE_DIR$/../../modules/ws-client/target/scala-3.4.1/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../modules/ws-client">
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/ws-client/src/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../modules/ws-client/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-3.4.1" level="project" />
+    <orderEntry type="module" module-name="trading-app.domain.domain-sources" exported="" />
+    <orderEntry type="module" module-name="trading-app.domain.domainJS" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/bouncy-castle-bc/3.1.0/bouncy-castle-bc-3.1.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/bouncy-castle-bc/3.1.0/bouncy-castle-bc-3.1.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="sbt: co.fs2:fs2-core_3:3.10.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: co.fs2:fs2-core_sjs1_3:3.9.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: co.fs2:fs2-io_3:3.10.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.comcast:ip4s-core_3:3.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.comcast:ip4s-core_sjs1_3:3.4.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.jwt-scala:jwt-core_3:10.0.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.optics:monocle-core_sjs1_3:3.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.profunktor:http4s-jwt-auth_3:1.2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: eu.timepit:refined-cats_sjs1_3:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: eu.timepit:refined_sjs1_3:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-generic_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-parser_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-refined_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-scalajs_sjs1_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.github.buntec:scala-js-snabbdom_sjs1_3:0.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.github.cquiroz:cldr-api_sjs1_3:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.github.cquiroz:scala-java-locales_sjs1_3:1.4.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.github.cquiroz:scala-java-time_sjs1_3:2.4.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.indigoengine:tyrian-io_sjs1_3:0.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.indigoengine:tyrian_sjs1_3:0.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: is.cir:ciris-refined_sjs1_3:3.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: is.cir:ciris_sjs1_3:3.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-core_3:0.23.27:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-crypto_3:0.2.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-dsl_3:0.23.27:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-server_3:0.23.27:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.log4s:log4s_3:1.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.portable-scala:portable-scala-reflect_sjs1_2.13:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scala-js-macrotask-executor_sjs1_3:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs1_3:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-javalib:1.15.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.13:1.15.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-scalalib_2.13:2.13.12+1.15.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-bridge_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_sjs1_3:3.4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scodec:scodec-bits_3:1.1.38:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scodec:scodec-bits_sjs1_3:1.1.38:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.36:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:alleycats-core_sjs1_3:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:case-insensitive_3:1.4.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_3:2.12.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_sjs1_3:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect-kernel_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect-kernel_sjs1_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect-std_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect-std_sjs1_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-effect_sjs1_3:3.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-free_sjs1_3:2.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_3:2.12.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_sjs1_3:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-parse_3:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:kittens_sjs1_3:3.3.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:literally_3:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:literally_sjs1_3:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:log4cats-core_3:2.7.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:log4cats-noop_3:2.7.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:log4cats-slf4j_3:2.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:shapeless3-deriving_sjs1_3:3.4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:squants_3:1.8.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:vault_3:3.5.0:jar" level="project" />
+  </component>
+</module>

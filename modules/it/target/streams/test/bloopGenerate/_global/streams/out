@@ -1,0 +1,4 @@
+[debug] [it-test] Classpath dependencies List(core, forecasts)
+[debug] [it-test] Dependencies from configurations List(it)
+[debug] Bloop wrote the configuration of project 'it-test' to '/home/shah/IdeaProjects/trading/.bloop/it-test.json'
+[success] Generated .bloop/it-test.json

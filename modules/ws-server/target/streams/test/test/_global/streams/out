@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(trading.ws.HandlerSuite, weaver.framework.WeaverFingerprints$SuiteFingerprint$@6e837059, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mtrading.ws.HandlerSuite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ [0mWS message handler [37m[1m184ms[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for weaver-cats-effect not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading.ws.HandlerSuite[0m

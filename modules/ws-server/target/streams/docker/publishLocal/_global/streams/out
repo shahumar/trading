@@ -1,0 +1,72 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t trading-ws:0.1.0 -t trading-ws:latest .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /home/shah/IdeaProjects/trading/modules/ws-server/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  124.4MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/20 : FROM jdk17-curl:latest as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/20 : LABEL snp-multi-stage="intermediate"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e4d8033ae13f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/20 : LABEL snp-multi-stage-id="1639935c-9985-450c-9704-b1f9f3185585"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 3cf1163917f2[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 3cf1163917f2[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 60e7efc8176e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 6c75228e0684[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 6c75228e0684[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 995f7de9e190[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/20 : COPY 2/opt /2/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 79b8259471b0[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/20 : COPY 4/opt /4/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 05658e66ae70[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e8285446c30e[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e8285446c30e[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> ed69562774da[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in f6f88518ebd5[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container f6f88518ebd5[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d5fbd81427b2[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 53fd1978135d[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 53fd1978135d[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> ca949911af0f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/20 : RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/ws"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 641265b24fc3[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 641265b24fc3[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 530c4751b57b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/20 : FROM jdk17-curl:latest as mainstage[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9a31e048594a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/20 : RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2afe996d8acd[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 78febd9e4439[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 15/20 : COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> c8392f6e8123[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 16/20 : COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 3be37f0ac0ca[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 17/20 : EXPOSE 8080[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e658703c6b17[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 18/20 : USER 1001:0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 4f235cf0082c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 19/20 : ENTRYPOINT ["/opt/docker/bin/ws"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 864a1e0605ef[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 20/20 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> b50c1b782b66[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built b50c1b782b66[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-ws:0.1.0[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-ws:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=1639935c-9985-450c-9704-b1f9f3185585") [0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-ws with tags [0.1.0, latest][0m

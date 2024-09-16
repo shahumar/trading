@@ -1,0 +1,8 @@
+CREATE TABLE products (
+  id UUID PRIMARY KEY,
+  title VARCHAR UNIQUE NOT NULL,
+  upc VARCHAR UNIQUE NOT NULL,
+  slug TEXT NULL,
+  created TIMESTAMP,
+  updated TIMESTAMP
+);

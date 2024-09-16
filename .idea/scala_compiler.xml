@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="warnings" value="false" />
+    <profile name="sbt 1" modules="trading_2431" />
+    <profile name="sbt 10" modules="forecasts,trading-app.forecasts">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/forecasts/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 11" modules="processor,trading-app.processor">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/processor/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 12" modules="demo,trading-app.demo">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/x-demo/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 13" modules="it,trading-app.it">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/it/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 14" modules="feed,trading-app.feed">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/feed/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 15" modules="root,trading-app">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/target/scala-3.4.1/meta" />
+      </parameters>
+    </profile>
+    <profile name="sbt 16" modules="smokey,trading-app.smokey">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/x-qa/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 17" modules="tracing,trading-app.tracing">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/tracing/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 18" modules="snapshots,trading-app.snapshots">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/snapshots/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 19" modules="trading-app.catalogue">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/catalogue/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="trading">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+      </parameters>
+    </profile>
+    <profile name="sbt 3" modules="trading-app.webapp,webapp">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-scalajs" />
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/ws-client/target/scala-3.4.1/meta" />
+      </parameters>
+    </profile>
+    <profile name="sbt 4" modules="domainJVM,trading-app.domain.domainJVM">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/domain/jvm/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="core,trading-app.core">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/core/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 6" modules="trading-app.ws,ws">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/ws-server/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 7" modules="alerts,trading-app.alerts">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/alerts/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 8" modules="lib,trading-app.lib">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Ykind-projector" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/lib/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 9" modules="domainJS,trading-app.domain.domainJS">
+      <parameters>
+        <parameter value="-scalajs" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-semanticdb-target" />
+        <parameter value="$PROJECT_DIR$/modules/domain/js/target/scala-3.4.1/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

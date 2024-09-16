@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info organisation="dev.zea" module="demo_3" revision="0.1.0">
+    <description>demo</description>
+  </info>
+  <configurations>
+    <conf name="plugin" visibility="public" description=""/>
+    <conf name="pom" visibility="public" description=""/>
+    <conf extends="runtime" name="test" visibility="public" description=""/>
+    <conf name="provided" visibility="public" description=""/>
+    <conf extends="compile,optional,provided" name="compile-internal" visibility="public" description=""/>
+    <conf name="scalafix" visibility="public" description=""/>
+    <conf name="docs" visibility="public" description=""/>
+    <conf name="optional" visibility="public" description=""/>
+    <conf name="compile" visibility="public" description=""/>
+    <conf extends="test,optional,provided" name="test-internal" visibility="public" description=""/>
+    <conf name="scala-tool" visibility="public" description=""/>
+    <conf name="scala-doc-tool" visibility="public" description=""/>
+    <conf name="sources" visibility="public" description=""/>
+    <conf extends="compile" name="runtime" visibility="public" description=""/>
+    <conf extends="runtime,optional" name="runtime-internal" visibility="public" description=""/>
+  </configurations>
+  <publications>
+    <artifact name="demo_3" type="jar" ext="jar" conf="compile"/>
+    <artifact e:classifier="sources" name="demo_3" type="src" ext="jar" conf="sources"/>
+    <artifact e:classifier="javadoc" name="demo_3" type="doc" ext="jar" conf="docs"/>
+    <artifact name="demo_3" type="pom" ext="pom" conf="pom"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.scala-lang" name="scala3-compiler_3" rev="3.4.1" conf="scala-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scaladoc_3" rev="3.4.1" conf="scala-doc-tool-&gt;default(compile)"> </dependency>
+    <dependency org="dev.zea" name="core_3" rev="0.1.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="dev.zea" name="forecasts_3" rev="0.1.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="dev.zea" name="tracing_3" rev="0.1.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="dev.zea" name="domain_3" rev="0.1.0" conf="compile-&gt;compile"> </dependency>
+    <dependency org="dev.zea" name="domain_3" rev="0.1.0" conf="compile-&gt;test"> </dependency>
+    <dependency org="org.scala-lang" name="scala3-library_3" rev="3.4.1" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="com.github.ghik" name="zerowaste_3.4.1" rev="0.2.21" conf="plugin-&gt;default(compile)"> </dependency>
+    <dependency org="org.typelevel" name="cats-core_3" rev="2.10.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.typelevel" name="cats-effect_3" rev="3.5.4" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="io.circe" name="circe-core_3" rev="0.14.6" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="io.circe" name="circe-parser_3" rev="0.14.6" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="is.cir" name="ciris_3" rev="3.2.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="is.cir" name="ciris-refined_3" rev="3.2.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="co.fs2" name="fs2-core_3" rev="3.9.4" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.typelevel" name="kittens_3" rev="3.3.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="com.comcast" name="ip4s-core_3" rev="3.4.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.typelevel" name="log4cats-noop_3" rev="2.7.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="dev.optics" name="monocle-core_3" rev="3.2.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.typelevel" name="cats-laws_3" rev="2.10.0" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="dev.optics" name="monocle-law_3" rev="3.2.0" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="org.scalacheck" name="scalacheck_3" rev="1.18.0" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="com.disneystreaming" name="weaver-cats_3" rev="0.8.4" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="com.disneystreaming" name="weaver-discipline_3" rev="0.8.4" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="com.disneystreaming" name="weaver-scalacheck_3" rev="0.8.4" conf="test-&gt;default(compile)"> </dependency>
+    <dependency org="io.circe" name="circe-refined_3" rev="0.14.6" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.tpolecat" name="doobie-postgres_3" rev="1.0.0-RC4" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.tpolecat" name="natchez-http4s_3" rev="0.5.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="eu.timepit" name="refined_3" rev="0.11.1" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="eu.timepit" name="refined-cats_3" rev="0.11.1" conf="compile-&gt;default(compile)"> </dependency>
+  </dependencies>
+</ivy-module>

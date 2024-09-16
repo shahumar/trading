@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: tracing
+  name: tracing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: tracing
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.1 (HEAD)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/app: "true"
+        io.kompose.service: tracing
+    spec:
+      containers:
+        - env:
+            - name: HTTP_PORT
+              value: "9005"
+            - name: PULSAR_URI
+              value: pulsar://pulsar:6650
+            - name: HONEYCOMB_API_KEY
+              value: $HONEYCOMB_API_KEY
+          image: trading-tracing:latest
+          imagePullPolicy: Never
+          livenessProbe:
+            exec:
+              command:
+                - curl
+                - -f
+                - http://localhost:9005/health
+            failureThreshold: 15
+            initialDelaySeconds: 120
+            periodSeconds: 2
+            timeoutSeconds: 5
+          name: tracing
+          ports:
+            - containerPort: 9005
+          resources: {}
+      restartPolicy: Always
+status: {}

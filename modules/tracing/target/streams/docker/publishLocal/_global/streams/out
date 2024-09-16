@@ -1,0 +1,85 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t trading-tracing:0.1.0 -t trading-tracing:latest .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /home/shah/IdeaProjects/trading/modules/tracing/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  129.1MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/20 : FROM jdk17-curl:latest as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/20 : LABEL snp-multi-stage="intermediate"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e4d8033ae13f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/20 : LABEL snp-multi-stage-id="48117892-8307-4e06-abe5-4f1816912d14"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e17dbc450a7e[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e17dbc450a7e[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2b1b48936630[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 61021de2197b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 61021de2197b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1ba481da029a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/20 : COPY 2/opt /2/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2e03a50de3ab[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/20 : COPY 4/opt /4/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 76ca52a73e6e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in f9cfd2b8a8d0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container f9cfd2b8a8d0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 15acff717b13[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in b7fe16e3d84c[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container b7fe16e3d84c[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 6aebf7cc5efd[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in f64690f19b18[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container f64690f19b18[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> edde90e468c9[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/20 : RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/tracing"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in d1edf3defbd0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container d1edf3defbd0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 507896254ece[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/20 : FROM jdk17-curl:latest as mainstage[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9a31e048594a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/20 : RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2afe996d8acd[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 78febd9e4439[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 15/20 : COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 7b298eeb5f0b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 16/20 : COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 54c8811e02e5[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 17/20 : EXPOSE 8080[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8d11c2be1c50[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 18/20 : USER 1001:0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 3f12c5916c9c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 19/20 : ENTRYPOINT ["/opt/docker/bin/tracing"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> b6545a98a906[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 20/20 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 3bdd3649c66b[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 3bdd3649c66b[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-tracing:0.1.0[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-tracing:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=48117892-8307-4e06-abe5-4f1816912d14") [0m
+[0m[[0m[0minfo[0m] [0m[0mDeleted Images:[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:507896254ece0783a13dcce9deb316f5b5094529667e5854fd71c3cabda26f6b[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:57b3ecf3ff201bb387f6465a35e6e790c4bf770e6d584824eec9b74ee98dbf45[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:edde90e468c94b37cdc477b8e85905120a6e3a0d6d1750c625ba0469ab091d57[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:a05cd873f8cdb8cc41cdd4f367b24f5a6a440de1990fe1baf1901cfceacfc6f7[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:6aebf7cc5efd40fd2032167b4c923a4027bddc06e58b8e986ab973f9eaf35c12[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:23975ec7d569e15ab629ed0b4e59ebceb73c2be535f6b05521cfa203392a48e8[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:15acff717b13d0dd60a9f85bb0d6eedd7ee2d9abde7aa4286b20261d580d0647[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:76ca52a73e6eb993700ea9a82faede928c6e4ad8d7b1c4e155d6ee4908a80c5c[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:4a937f0aeb53e45e51956cb9db25e2cb1e5f2e04c0694131c134f70a80fa4b51[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:2e03a50de3ab1c739c67a868d6daee88effaed62e81a886d358ae6cf048e5a0b[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:b1099701e2ecd29fd83917e43d102b0a5c0c0f75a478636fea148c2e1ba932c4[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:1ba481da029ac6c59539377f8df7723b7c38b95e6b8c8132cc318d6f6479370c[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:2b1b4893663050c93e8e37eacff97621586a7ebbf14bd80ddc88b4ac666e26ab[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 258MB[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-tracing with tags [0.1.0, latest][0m

@@ -1,0 +1,4 @@
+[debug] [webapp-test] Classpath dependencies List(domainJS)
+[debug] [webapp-test] Dependencies from configurations List(webapp)
+[debug] Bloop wrote the configuration of project 'webapp-test' to '/home/shah/IdeaProjects/trading/.bloop/webapp-test.json'
+[success] Generated .bloop/webapp-test.json

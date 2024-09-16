@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/shah/IdeaProjects/trading/modules/catalogue/target/scala-3.4.1/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductId$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$UPC$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Title$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Slug$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$Product$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product$ProductReq$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/shah/IdeaProjects/trading/modules/catalogue/target/scala-3.4.1/classes.bak[0m

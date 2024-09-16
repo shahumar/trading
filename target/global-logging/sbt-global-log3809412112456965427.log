@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/shah/IdeaProjects/trading/}catalogue/products {file:/home/shah/IdeaProjects/trading/}catalogue/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: catalogue / Compile / products, catalogue / Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shah/IdeaProjects/trading/modules/catalogue/target/scala-3.4.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: /home/shah/IdeaProjects/trading/modules/catalogue/src/main/scala/retails/catalogue/routes/ProductRoutes.scala:28:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m        Logger[[35mF[0m].info(domain)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m        ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35minfo[0m in [33mtrait[0m [35mErrorLogger[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (t: Throwable)(message: => String): F[Unit][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (message: => String): F[Unit][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch arguments ((domain : retails.catalogue.domain².product.Product))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mwhere:    F       is a type in [33mclass[0m [35mProductRoutes[0m with bounds <: [_] =>> Any[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          domain  is a value in an anonymous function in [33mclass[0m [35mProductRoutes[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          domain² is a package in [33mpackage[0m [35mretails.catalogue[0m[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(catalogue / Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Sep 16, 2024, 2:49:29 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

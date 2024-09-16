@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 14 products, 5 sources, 19 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/modules/ws-server/src/main/scala/trading/ws/Config.scala, ${BASE}/modules/ws-server/src/main/scala/trading/ws/WsRoutes.scala, ${BASE}/modules/ws-server/src/main/scala/trading/ws/WsConnections.scala, ${BASE}/modules/ws-server/src/main/scala/trading/ws/Handler.scala, ${BASE}/modules/ws-server/src/main/scala/trading/ws/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

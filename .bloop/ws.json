@@ -1,0 +1,2296 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "ws",
+        "directory": "/home/shah/IdeaProjects/trading/modules/ws-server",
+        "workspaceDir": "/home/shah/IdeaProjects/trading",
+        "sources": [
+            "/home/shah/IdeaProjects/trading/modules/ws-server/src/main/scala",
+            "/home/shah/IdeaProjects/trading/modules/ws-server/src/main/scala-3",
+            "/home/shah/IdeaProjects/trading/modules/ws-server/src/main/java",
+            "/home/shah/IdeaProjects/trading/modules/ws-server/target/scala-3.4.1/src_managed/main"
+        ],
+        "dependencies": [
+            "core"
+        ],
+        "classpath": [
+            "/home/shah/IdeaProjects/trading/.bloop/core/scala-3/classes",
+            "/home/shah/IdeaProjects/trading/.bloop/lib/scala-3/classes",
+            "/home/shah/IdeaProjects/trading/.bloop/domainJVM/scala-3/classes",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.10.0/cats-core_3-2.10.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.4/cats-effect_3-3.5.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris_3/3.2.0/ciris_3-3.2.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris-refined_3/3.2.0/ciris-refined_3-3.2.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.9.4/fs2-core_3-3.9.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kittens_3/3.3.0/kittens_3-3.3.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/comcast/ip4s-core_3/3.5.0/ip4s-core_3-3.5.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-noop_3/2.7.0/log4cats-noop_3-2.7.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_3/3.2.0/monocle-core_3-3.2.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_3/1.0.0-M41/http4s-circe_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.10.0/cats-kernel_3-2.10.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.4/cats-effect-kernel_3-3.5.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.4/cats-effect-std_3-3.5.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_3/0.10.3/refined_3-0.10.3.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.38/scodec-bits_3-1.1.38.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/alleycats-core_3/2.10.0/alleycats-core_3-2.10.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/shapeless3-deriving_3/3.4.1/shapeless3-deriving_3-3.4.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/literally_3/1.2.0/literally_3-1.2.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_3/2.7.0/log4cats-core_3-2.7.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_3/2.9.0/cats-free_3-2.9.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_3/1.0.0-M41/http4s-core_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_3/1.0.0-M41/http4s-jawn_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.5.1/jawn-parser_3-1.5.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_3/1.4.0/case-insensitive_3-1.4.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_3/1.0.0/cats-parse_3-1.0.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-io_3/3.9.4/fs2-io_3-3.9.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/vault_3/3.5.0/vault_3-3.5.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-fs2_3/2.4.0/jawn-fs2_3-2.4.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/fd4s/fs2-kafka_3/3.4.0/fs2-kafka_3-3.4.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_3/1.0.0-M41/http4s-dsl_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-prometheus-metrics_3/1.0.0-M38/http4s-prometheus-metrics_3-1.0.0-M38.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-server_3/1.0.0-M41/http4s-ember-server_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-cats_3/2.6.0/iron-cats_3-2.6.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron_3/2.6.0/iron_3-2.6.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-circe_3/2.6.0/iron-circe_3-2.6.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/neutron-core_3/0.8.0/neutron-core_3-0.8.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/valskalla/odin-core_3/0.13.0/odin-core_3-0.13.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-effects_3/1.7.1/redis4cats-effects_3-1.7.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_3/1.0.0-M41/http4s-ember-core_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_3/1.0.0-M41/http4s-server_3-1.0.0-M41.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client/3.1.0/pulsar-client-3.1.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.7/sourcecode_3-0.2.7.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.8/perfolation_3-1.2.8.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-core_3/1.7.1/redis4cats-core_3-1.7.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-6/zstd-jni-1.5.5-6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-crypto_3/0.2.4/http4s-crypto_3-0.2.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/3.1.0/pulsar-client-api-3.1.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin-api/3.1.0/pulsar-client-admin-api-3.1.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/bouncy-castle-bc/3.1.0/bouncy-castle-bc-3.1.0-pkg.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-ext-jdk18on/1.75/bcprov-ext-jdk18on-1.75.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.4/reactor-core-3.6.4.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final.jar",
+            "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+        ],
+        "out": "/home/shah/IdeaProjects/trading/.bloop/ws",
+        "classesDir": "/home/shah/IdeaProjects/trading/.bloop/ws/scala-3/classes",
+        "resources": [
+            "/home/shah/IdeaProjects/trading/modules/ws-server/src/main/resources",
+            "/home/shah/IdeaProjects/trading/modules/ws-server/target/scala-3.4.1/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.4.1",
+            "options": [
+                "-encoding",
+                "utf8",
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-language:experimental.macros",
+                "-language:higherKinds",
+                "-language:implicitConversions",
+                "-Ykind-projector",
+                "-Wvalue-discard",
+                "-Wunused:implicits",
+                "-Wunused:explicits",
+                "-Wunused:imports",
+                "-Wunused:locals",
+                "-Wunused:params",
+                "-Wunused:privates",
+                "-Xfatal-warnings",
+                "-Xplugin:/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/zerowaste_3.4.1/0.2.21/zerowaste_3.4.1-0.2.21.jar",
+                "-Xsemanticdb",
+                "-semanticdb-target",
+                "/home/shah/IdeaProjects/trading/modules/ws-server/target/scala-3.4.1/meta"
+            ],
+            "jars": [
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.4.1/scala3-compiler_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.4.1/scala3-interfaces-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.4.1/tasty-core_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.6.0-scala-1/scala-asm-9.6.0-scala-1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.6/compiler-interface-1.9.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.8/util-interface-1.9.8.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.4.1/scaladoc_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.4.1/scala3-tasty-inspector_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/open-jdk-21",
+                "options": [
+                    "-Duser.dir=/home/shah/IdeaProjects/trading"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/usr/lib/jvm/open-jdk-21",
+                "options": [
+                    "-Duser.dir=/home/shah/IdeaProjects/trading"
+                ]
+            },
+            "classpath": [
+                "/home/shah/IdeaProjects/trading/.bloop/ws/scala-3/classes",
+                "/home/shah/IdeaProjects/trading/.bloop/core/scala-3/classes",
+                "/home/shah/IdeaProjects/trading/.bloop/lib/scala-3/classes",
+                "/home/shah/IdeaProjects/trading/.bloop/domainJVM/scala-3/classes",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.10.0/cats-core_3-2.10.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.4/cats-effect_3-3.5.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris_3/3.2.0/ciris_3-3.2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris-refined_3/3.2.0/ciris-refined_3-3.2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.9.4/fs2-core_3-3.9.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kittens_3/3.3.0/kittens_3-3.3.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/comcast/ip4s-core_3/3.5.0/ip4s-core_3-3.5.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-noop_3/2.7.0/log4cats-noop_3-2.7.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_3/3.2.0/monocle-core_3-3.2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_3/1.0.0-M41/http4s-circe_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.10.0/cats-kernel_3-2.10.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.4/cats-effect-kernel_3-3.5.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.4/cats-effect-std_3-3.5.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_3/0.10.3/refined_3-0.10.3.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.38/scodec-bits_3-1.1.38.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/alleycats-core_3/2.10.0/alleycats-core_3-2.10.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/shapeless3-deriving_3/3.4.1/shapeless3-deriving_3-3.4.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/literally_3/1.2.0/literally_3-1.2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_3/2.7.0/log4cats-core_3-2.7.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_3/2.9.0/cats-free_3-2.9.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_3/1.0.0-M41/http4s-core_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_3/1.0.0-M41/http4s-jawn_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.5.1/jawn-parser_3-1.5.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_3/1.4.0/case-insensitive_3-1.4.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_3/1.0.0/cats-parse_3-1.0.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-io_3/3.9.4/fs2-io_3-3.9.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/vault_3/3.5.0/vault_3-3.5.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-fs2_3/2.4.0/jawn-fs2_3-2.4.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/fd4s/fs2-kafka_3/3.4.0/fs2-kafka_3-3.4.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_3/1.0.0-M41/http4s-dsl_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-prometheus-metrics_3/1.0.0-M38/http4s-prometheus-metrics_3-1.0.0-M38.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-server_3/1.0.0-M41/http4s-ember-server_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-cats_3/2.6.0/iron-cats_3-2.6.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron_3/2.6.0/iron_3-2.6.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-circe_3/2.6.0/iron-circe_3-2.6.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/neutron-core_3/0.8.0/neutron-core_3-0.8.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/valskalla/odin-core_3/0.13.0/odin-core_3-0.13.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-effects_3/1.7.1/redis4cats-effects_3-1.7.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_3/1.0.0-M41/http4s-ember-core_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_3/1.0.0-M41/http4s-server_3-1.0.0-M41.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client/3.1.0/pulsar-client-3.1.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.7/sourcecode_3-0.2.7.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.8/perfolation_3-1.2.8.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-core_3/1.7.1/redis4cats-core_3-1.7.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-6/zstd-jni-1.5.5-6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-crypto_3/0.2.4/http4s-crypto_3-0.2.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/3.1.0/pulsar-client-api-3.1.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin-api/3.1.0/pulsar-client-admin-api-3.1.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/bouncy-castle-bc/3.1.0/bouncy-castle-bc-3.1.0-pkg.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-ext-jdk18on/1.75/bcprov-ext-jdk18on-1.75.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.4/reactor-core-3.6.4.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final.jar",
+                "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-sources.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_3",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.10.0/cats-core_3-2.10.0.jar"
+                        },
+                        {
+                            "name": "cats-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.10.0/cats-core_3-2.10.0-sources.jar"
+                        },
+                        {
+                            "name": "cats-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.10.0/cats-core_3-2.10.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_3",
+                    "version": "3.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.4/cats-effect_3-3.5.4.jar"
+                        },
+                        {
+                            "name": "cats-effect_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.4/cats-effect_3-3.5.4-sources.jar"
+                        },
+                        {
+                            "name": "cats-effect_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.4/cats-effect_3-3.5.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-core_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-parser_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-parser_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-parser_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-parser_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "is.cir",
+                    "name": "ciris_3",
+                    "version": "3.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ciris_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris_3/3.2.0/ciris_3-3.2.0.jar"
+                        },
+                        {
+                            "name": "ciris_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris_3/3.2.0/ciris_3-3.2.0-sources.jar"
+                        },
+                        {
+                            "name": "ciris_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris_3/3.2.0/ciris_3-3.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "is.cir",
+                    "name": "ciris-refined_3",
+                    "version": "3.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ciris-refined_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris-refined_3/3.2.0/ciris-refined_3-3.2.0.jar"
+                        },
+                        {
+                            "name": "ciris-refined_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris-refined_3/3.2.0/ciris-refined_3-3.2.0-sources.jar"
+                        },
+                        {
+                            "name": "ciris-refined_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/is/cir/ciris-refined_3/3.2.0/ciris-refined_3-3.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.fs2",
+                    "name": "fs2-core_3",
+                    "version": "3.9.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.9.4/fs2-core_3-3.9.4.jar"
+                        },
+                        {
+                            "name": "fs2-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.9.4/fs2-core_3-3.9.4-sources.jar"
+                        },
+                        {
+                            "name": "fs2-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.9.4/fs2-core_3-3.9.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "kittens_3",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kittens_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kittens_3/3.3.0/kittens_3-3.3.0.jar"
+                        },
+                        {
+                            "name": "kittens_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kittens_3/3.3.0/kittens_3-3.3.0-sources.jar"
+                        },
+                        {
+                            "name": "kittens_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kittens_3/3.3.0/kittens_3-3.3.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.comcast",
+                    "name": "ip4s-core_3",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ip4s-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/comcast/ip4s-core_3/3.5.0/ip4s-core_3-3.5.0.jar"
+                        },
+                        {
+                            "name": "ip4s-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/comcast/ip4s-core_3/3.5.0/ip4s-core_3-3.5.0-sources.jar"
+                        },
+                        {
+                            "name": "ip4s-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/comcast/ip4s-core_3/3.5.0/ip4s-core_3-3.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "log4cats-noop_3",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4cats-noop_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-noop_3/2.7.0/log4cats-noop_3-2.7.0.jar"
+                        },
+                        {
+                            "name": "log4cats-noop_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-noop_3/2.7.0/log4cats-noop_3-2.7.0-sources.jar"
+                        },
+                        {
+                            "name": "log4cats-noop_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-noop_3/2.7.0/log4cats-noop_3-2.7.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.optics",
+                    "name": "monocle-core_3",
+                    "version": "3.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monocle-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_3/3.2.0/monocle-core_3-3.2.0.jar"
+                        },
+                        {
+                            "name": "monocle-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_3/3.2.0/monocle-core_3-3.2.0-sources.jar"
+                        },
+                        {
+                            "name": "monocle-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_3/3.2.0/monocle-core_3-3.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-circe_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-circe_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_3/1.0.0-M41/http4s-circe_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-circe_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_3/1.0.0-M41/http4s-circe_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-circe_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_3/1.0.0-M41/http4s-circe_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_3",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.10.0/cats-kernel_3-2.10.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.10.0/cats-kernel_3-2.10.0-sources.jar"
+                        },
+                        {
+                            "name": "cats-kernel_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.10.0/cats-kernel_3-2.10.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-kernel_3",
+                    "version": "3.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.4/cats-effect-kernel_3-3.5.4.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.4/cats-effect-kernel_3-3.5.4-sources.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.4/cats-effect-kernel_3-3.5.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-std_3",
+                    "version": "3.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-std_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.4/cats-effect-std_3-3.5.4.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.4/cats-effect-std_3-3.5.4-sources.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.4/cats-effect-std_3-3.5.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-numbers_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-numbers_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-numbers_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-numbers_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-jawn_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-jawn_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-jawn_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-jawn_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "eu.timepit",
+                    "name": "refined_3",
+                    "version": "0.10.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "refined_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_3/0.10.3/refined_3-0.10.3.jar"
+                        },
+                        {
+                            "name": "refined_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_3/0.10.3/refined_3-0.10.3-sources.jar"
+                        },
+                        {
+                            "name": "refined_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_3/0.10.3/refined_3-0.10.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scodec",
+                    "name": "scodec-bits_3",
+                    "version": "1.1.38",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scodec-bits_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.38/scodec-bits_3-1.1.38.jar"
+                        },
+                        {
+                            "name": "scodec-bits_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.38/scodec-bits_3-1.1.38-sources.jar"
+                        },
+                        {
+                            "name": "scodec-bits_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.38/scodec-bits_3-1.1.38-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "alleycats-core_3",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "alleycats-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/alleycats-core_3/2.10.0/alleycats-core_3-2.10.0.jar"
+                        },
+                        {
+                            "name": "alleycats-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/alleycats-core_3/2.10.0/alleycats-core_3-2.10.0-sources.jar"
+                        },
+                        {
+                            "name": "alleycats-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/alleycats-core_3/2.10.0/alleycats-core_3-2.10.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "shapeless3-deriving_3",
+                    "version": "3.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless3-deriving_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/shapeless3-deriving_3/3.4.1/shapeless3-deriving_3-3.4.1.jar"
+                        },
+                        {
+                            "name": "shapeless3-deriving_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/shapeless3-deriving_3/3.4.1/shapeless3-deriving_3-3.4.1-sources.jar"
+                        },
+                        {
+                            "name": "shapeless3-deriving_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/shapeless3-deriving_3/3.4.1/shapeless3-deriving_3-3.4.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "literally_3",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "literally_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/literally_3/1.2.0/literally_3-1.2.0.jar"
+                        },
+                        {
+                            "name": "literally_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/literally_3/1.2.0/literally_3-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "literally_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/literally_3/1.2.0/literally_3-1.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "log4cats-core_3",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4cats-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_3/2.7.0/log4cats-core_3-2.7.0.jar"
+                        },
+                        {
+                            "name": "log4cats-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_3/2.7.0/log4cats-core_3-2.7.0-sources.jar"
+                        },
+                        {
+                            "name": "log4cats-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_3/2.7.0/log4cats-core_3-2.7.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-free_3",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-free_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_3/2.9.0/cats-free_3-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-free_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_3/2.9.0/cats-free_3-2.9.0-sources.jar"
+                        },
+                        {
+                            "name": "cats-free_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_3/2.9.0/cats-free_3-2.9.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-core_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_3/1.0.0-M41/http4s-core_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_3/1.0.0-M41/http4s-core_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_3/1.0.0-M41/http4s-core_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-jawn_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-jawn_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_3/1.0.0-M41/http4s-jawn_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-jawn_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_3/1.0.0-M41/http4s-jawn_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-jawn_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_3/1.0.0-M41/http4s-jawn_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "jawn-parser_3",
+                    "version": "1.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jawn-parser_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.5.1/jawn-parser_3-1.5.1.jar"
+                        },
+                        {
+                            "name": "jawn-parser_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.5.1/jawn-parser_3-1.5.1-sources.jar"
+                        },
+                        {
+                            "name": "jawn-parser_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.5.1/jawn-parser_3-1.5.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.13",
+                    "version": "2.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless_2.13",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10.jar"
+                        },
+                        {
+                            "name": "shapeless_2.13",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10-sources.jar"
+                        },
+                        {
+                            "name": "shapeless_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "case-insensitive_3",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "case-insensitive_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_3/1.4.0/case-insensitive_3-1.4.0.jar"
+                        },
+                        {
+                            "name": "case-insensitive_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_3/1.4.0/case-insensitive_3-1.4.0-sources.jar"
+                        },
+                        {
+                            "name": "case-insensitive_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_3/1.4.0/case-insensitive_3-1.4.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-parse_3",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-parse_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_3/1.0.0/cats-parse_3-1.0.0.jar"
+                        },
+                        {
+                            "name": "cats-parse_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_3/1.0.0/cats-parse_3-1.0.0-sources.jar"
+                        },
+                        {
+                            "name": "cats-parse_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_3/1.0.0/cats-parse_3-1.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.fs2",
+                    "name": "fs2-io_3",
+                    "version": "3.9.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-io_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-io_3/3.9.4/fs2-io_3-3.9.4.jar"
+                        },
+                        {
+                            "name": "fs2-io_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-io_3/3.9.4/fs2-io_3-3.9.4-sources.jar"
+                        },
+                        {
+                            "name": "fs2-io_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-io_3/3.9.4/fs2-io_3-3.9.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "vault_3",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "vault_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/vault_3/3.5.0/vault_3-3.5.0.jar"
+                        },
+                        {
+                            "name": "vault_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/vault_3/3.5.0/vault_3-3.5.0-sources.jar"
+                        },
+                        {
+                            "name": "vault_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/vault_3/3.5.0/vault_3-3.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "jawn-fs2_3",
+                    "version": "2.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jawn-fs2_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-fs2_3/2.4.0/jawn-fs2_3-2.4.0.jar"
+                        },
+                        {
+                            "name": "jawn-fs2_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-fs2_3/2.4.0/jawn-fs2_3-2.4.0-sources.jar"
+                        },
+                        {
+                            "name": "jawn-fs2_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-fs2_3/2.4.0/jawn-fs2_3-2.4.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.fd4s",
+                    "name": "fs2-kafka_3",
+                    "version": "3.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-kafka_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/fd4s/fs2-kafka_3/3.4.0/fs2-kafka_3-3.4.0.jar"
+                        },
+                        {
+                            "name": "fs2-kafka_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/fd4s/fs2-kafka_3/3.4.0/fs2-kafka_3-3.4.0-sources.jar"
+                        },
+                        {
+                            "name": "fs2-kafka_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/fd4s/fs2-kafka_3/3.4.0/fs2-kafka_3-3.4.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-dsl_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-dsl_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_3/1.0.0-M41/http4s-dsl_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-dsl_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_3/1.0.0-M41/http4s-dsl_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-dsl_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_3/1.0.0-M41/http4s-dsl_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-prometheus-metrics_3",
+                    "version": "1.0.0-M38",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-prometheus-metrics_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-prometheus-metrics_3/1.0.0-M38/http4s-prometheus-metrics_3-1.0.0-M38.jar"
+                        },
+                        {
+                            "name": "http4s-prometheus-metrics_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-prometheus-metrics_3/1.0.0-M38/http4s-prometheus-metrics_3-1.0.0-M38-sources.jar"
+                        },
+                        {
+                            "name": "http4s-prometheus-metrics_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-prometheus-metrics_3/1.0.0-M38/http4s-prometheus-metrics_3-1.0.0-M38-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-ember-server_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-ember-server_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-server_3/1.0.0-M41/http4s-ember-server_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-ember-server_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-server_3/1.0.0-M41/http4s-ember-server_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-ember-server_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-server_3/1.0.0-M41/http4s-ember-server_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.iltotore",
+                    "name": "iron-cats_3",
+                    "version": "2.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "iron-cats_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-cats_3/2.6.0/iron-cats_3-2.6.0.jar"
+                        },
+                        {
+                            "name": "iron-cats_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-cats_3/2.6.0/iron-cats_3-2.6.0-sources.jar"
+                        },
+                        {
+                            "name": "iron-cats_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-cats_3/2.6.0/iron-cats_3-2.6.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.iltotore",
+                    "name": "iron_3",
+                    "version": "2.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "iron_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron_3/2.6.0/iron_3-2.6.0.jar"
+                        },
+                        {
+                            "name": "iron_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron_3/2.6.0/iron_3-2.6.0-sources.jar"
+                        },
+                        {
+                            "name": "iron_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron_3/2.6.0/iron_3-2.6.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.iltotore",
+                    "name": "iron-circe_3",
+                    "version": "2.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "iron-circe_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-circe_3/2.6.0/iron-circe_3-2.6.0.jar"
+                        },
+                        {
+                            "name": "iron-circe_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-circe_3/2.6.0/iron-circe_3-2.6.0-sources.jar"
+                        },
+                        {
+                            "name": "iron-circe_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/iltotore/iron-circe_3/2.6.0/iron-circe_3-2.6.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.profunktor",
+                    "name": "neutron-core_3",
+                    "version": "0.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neutron-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/neutron-core_3/0.8.0/neutron-core_3-0.8.0.jar"
+                        },
+                        {
+                            "name": "neutron-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/neutron-core_3/0.8.0/neutron-core_3-0.8.0-sources.jar"
+                        },
+                        {
+                            "name": "neutron-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/neutron-core_3/0.8.0/neutron-core_3-0.8.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.valskalla",
+                    "name": "odin-core_3",
+                    "version": "0.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "odin-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/valskalla/odin-core_3/0.13.0/odin-core_3-0.13.0.jar"
+                        },
+                        {
+                            "name": "odin-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/valskalla/odin-core_3/0.13.0/odin-core_3-0.13.0-sources.jar"
+                        },
+                        {
+                            "name": "odin-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/valskalla/odin-core_3/0.13.0/odin-core_3-0.13.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.profunktor",
+                    "name": "redis4cats-effects_3",
+                    "version": "1.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "redis4cats-effects_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-effects_3/1.7.1/redis4cats-effects_3-1.7.1.jar"
+                        },
+                        {
+                            "name": "redis4cats-effects_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-effects_3/1.7.1/redis4cats-effects_3-1.7.1-sources.jar"
+                        },
+                        {
+                            "name": "redis4cats-effects_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-effects_3/1.7.1/redis4cats-effects_3-1.7.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-clients",
+                    "version": "3.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kafka-clients",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+                        },
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0-sources.jar"
+                        },
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_common",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_common",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_common",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient_common",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_hotspot",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_hotspot",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_hotspot",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient_hotspot",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-ember-core_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-ember-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_3/1.0.0-M41/http4s-ember-core_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-ember-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_3/1.0.0-M41/http4s-ember-core_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-ember-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_3/1.0.0-M41/http4s-ember-core_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-server_3",
+                    "version": "1.0.0-M41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-server_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_3/1.0.0-M41/http4s-server_3-1.0.0-M41.jar"
+                        },
+                        {
+                            "name": "http4s-server_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_3/1.0.0-M41/http4s-server_3-1.0.0-M41-sources.jar"
+                        },
+                        {
+                            "name": "http4s-server_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_3/1.0.0-M41/http4s-server_3-1.0.0-M41-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pulsar",
+                    "name": "pulsar-client",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pulsar-client",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client/3.1.0/pulsar-client-3.1.0.jar"
+                        },
+                        {
+                            "name": "pulsar-client",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client/3.1.0/pulsar-client-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-mtl_3",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-mtl_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1.jar"
+                        },
+                        {
+                            "name": "cats-mtl_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1-sources.jar"
+                        },
+                        {
+                            "name": "cats-mtl_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_3",
+                    "version": "0.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.7/sourcecode_3-0.2.7.jar"
+                        },
+                        {
+                            "name": "sourcecode_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.7/sourcecode_3-0.2.7-sources.jar"
+                        },
+                        {
+                            "name": "sourcecode_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.7/sourcecode_3-0.2.7-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.outr",
+                    "name": "perfolation_3",
+                    "version": "1.2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "perfolation_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.8/perfolation_3-1.2.8.jar"
+                        },
+                        {
+                            "name": "perfolation_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.8/perfolation_3-1.2.8-sources.jar"
+                        },
+                        {
+                            "name": "perfolation_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.8/perfolation_3-1.2.8-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.profunktor",
+                    "name": "redis4cats-core_3",
+                    "version": "1.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "redis4cats-core_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-core_3/1.7.1/redis4cats-core_3-1.7.1.jar"
+                        },
+                        {
+                            "name": "redis4cats-core_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-core_3/1.7.1/redis4cats-core_3-1.7.1-sources.jar"
+                        },
+                        {
+                            "name": "redis4cats-core_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/profunktor/redis4cats-core_3/1.7.1/redis4cats-core_3-1.7.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.lettuce",
+                    "name": "lettuce-core",
+                    "version": "6.3.2.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lettuce-core",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar"
+                        },
+                        {
+                            "name": "lettuce-core",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE-sources.jar"
+                        },
+                        {
+                            "name": "lettuce-core",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.5.5-6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-6/zstd-jni-1.5.5-6.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-6/zstd-jni-1.5.5-6-sources.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-6/zstd-jni-1.5.5-6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5-sources.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_otel",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_otel",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_otel_agent",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_otel_agent",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel_agent",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel_agent",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "hpack",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hpack",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar"
+                        },
+                        {
+                            "name": "hpack",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2-sources.jar"
+                        },
+                        {
+                            "name": "hpack",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.http4s",
+                    "name": "http4s-crypto_3",
+                    "version": "0.2.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-crypto_3",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-crypto_3/0.2.4/http4s-crypto_3-0.2.4.jar"
+                        },
+                        {
+                            "name": "http4s-crypto_3",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-crypto_3/0.2.4/http4s-crypto_3-0.2.4-sources.jar"
+                        },
+                        {
+                            "name": "http4s-crypto_3",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-crypto_3/0.2.4/http4s-crypto_3-0.2.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pulsar",
+                    "name": "pulsar-client-api",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pulsar-client-api",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/3.1.0/pulsar-client-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "pulsar-client-api",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/3.1.0/pulsar-client-api-3.1.0-sources.jar"
+                        },
+                        {
+                            "name": "pulsar-client-api",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-api/3.1.0/pulsar-client-api-3.1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pulsar",
+                    "name": "pulsar-client-admin-api",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pulsar-client-admin-api",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin-api/3.1.0/pulsar-client-admin-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "pulsar-client-admin-api",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin-api/3.1.0/pulsar-client-admin-api-3.1.0-sources.jar"
+                        },
+                        {
+                            "name": "pulsar-client-admin-api",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/pulsar/pulsar-client-admin-api/3.1.0/pulsar-client-admin-api-3.1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.ws.rs",
+                    "name": "javax.ws.rs-api",
+                    "version": "2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.ws.rs-api",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+                        },
+                        {
+                            "name": "javax.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1-sources.jar"
+                        },
+                        {
+                            "name": "javax.ws.rs-api",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.19.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6-sources.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcpkix-jdk18on",
+                    "version": "1.75",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcpkix-jdk18on",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar"
+                        },
+                        {
+                            "name": "bcpkix-jdk18on",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75-sources.jar"
+                        },
+                        {
+                            "name": "bcpkix-jdk18on",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-jdk18on",
+                    "version": "1.75",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk18on",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk18on",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75-sources.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk18on",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcutil-jdk18on",
+                    "version": "1.75",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcutil-jdk18on",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar"
+                        },
+                        {
+                            "name": "bcutil-jdk18on",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75-sources.jar"
+                        },
+                        {
+                            "name": "bcutil-jdk18on",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-ext-jdk18on",
+                    "version": "1.75",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-ext-jdk18on",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-ext-jdk18on/1.75/bcprov-ext-jdk18on-1.75.jar"
+                        },
+                        {
+                            "name": "bcprov-ext-jdk18on",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-ext-jdk18on/1.75/bcprov-ext-jdk18on-1.75-sources.jar"
+                        },
+                        {
+                            "name": "bcprov-ext-jdk18on",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-ext-jdk18on/1.75/bcprov-ext-jdk18on-1.75-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.activation",
+                    "name": "javax.activation",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.activation",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar"
+                        },
+                        {
+                            "name": "javax.activation",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "javax.activation",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.14.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.validation",
+                    "name": "validation-api",
+                    "version": "1.1.0.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "validation-api",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+                        },
+                        {
+                            "name": "validation-api",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"
+                        },
+                        {
+                            "name": "validation-api",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jcip",
+                    "name": "jcip-annotations",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcip-annotations",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar"
+                        },
+                        {
+                            "name": "jcip-annotations",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor",
+                    "name": "reactor-core",
+                    "version": "3.6.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactor-core",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.4/reactor-core-3.6.4.jar"
+                        },
+                        {
+                            "name": "reactor-core",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.4/reactor-core-3.6.4-sources.jar"
+                        },
+                        {
+                            "name": "reactor-core",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.4/reactor-core-3.6.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_common",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_common",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_common",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0-sources.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_common",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.107.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/home/shah/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

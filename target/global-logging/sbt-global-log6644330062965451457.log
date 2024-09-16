@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/shah/IdeaProjects/trading/}catalogue/products {file:/home/shah/IdeaProjects/trading/}catalogue/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: catalogue / Compile / products, catalogue / Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shah/IdeaProjects/trading/modules/catalogue/target/scala-3.4.1/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/shah/IdeaProjects/trading/modules/catalogue/src/main/scala/retails/catalogue/routes/ProductRoutes.scala:28:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m28 |[0m        Logger[[35mF[0m].info([31m"how are you"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m        discarded expression with non-Unit value[0m
+[0m[[0m[31merror[0m] [0m[0mNo warnings can be incurred under -Werror (or -Xfatal-warnings)[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(catalogue / Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Sep 16, 2024, 2:50:51 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

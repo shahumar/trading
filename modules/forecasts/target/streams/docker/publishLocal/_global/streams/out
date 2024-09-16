@@ -1,0 +1,72 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t trading-forecasts:0.1.0 -t trading-forecasts:latest .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /home/shah/IdeaProjects/trading/modules/forecasts/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  132.8MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/20 : FROM jdk17-curl:latest as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/20 : LABEL snp-multi-stage="intermediate"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e4d8033ae13f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/20 : LABEL snp-multi-stage-id="99b1dbf7-0fb4-4295-bbbb-ddca82661757"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 29ff632c19ab[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 29ff632c19ab[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2f207ffc8cd1[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in d712e5e0cbb4[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container d712e5e0cbb4[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d7e26cee671f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/20 : COPY 2/opt /2/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1346c21b997d[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/20 : COPY 4/opt /4/opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 530fbb8d7286[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 2e942c59e283[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2e942c59e283[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> abdb3fc20c3c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in b71333a9caca[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container b71333a9caca[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> db939be01b4e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in d6389442fe5b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container d6389442fe5b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> dd44f99763ab[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/20 : RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/forecasts"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 09378289414f[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 09378289414f[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1637e857a2da[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/20 : FROM jdk17-curl:latest as mainstage[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 735a306b6f11[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9a31e048594a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/20 : RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2afe996d8acd[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 78febd9e4439[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 15/20 : COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 190ca2c9df20[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 16/20 : COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 457730418014[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 17/20 : EXPOSE 8080[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> be026715da0d[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 18/20 : USER 1001:0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> b99ca1a04d7c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 19/20 : ENTRYPOINT ["/opt/docker/bin/forecasts"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1280088ef10b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 20/20 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e52b6022ee0b[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built e52b6022ee0b[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-forecasts:0.1.0[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged trading-forecasts:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=99b1dbf7-0fb4-4295-bbbb-ddca82661757") [0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-forecasts with tags [0.1.0, latest][0m

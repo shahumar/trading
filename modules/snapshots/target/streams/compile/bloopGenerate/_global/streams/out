@@ -1,0 +1,4 @@
+[debug] [snapshots] Classpath dependencies List(core)
+[debug] [snapshots] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'snapshots' to '/home/shah/IdeaProjects/trading/.bloop/snapshots.json'
+[success] Generated .bloop/snapshots.json

@@ -1,0 +1,26 @@
+[0m[[0m[0minfo[0m] [0m[0mFull optimizing /home/shah/IdeaProjects/trading/modules/ws-client/target/scala-3.4.1/webapp-opt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 840539 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 68133 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Check IR: 237671 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 1218295 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 219750 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 21676 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 1129599 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 1374749 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 251519 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 27398 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 282318 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 4263 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 1786 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 11368 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 18531 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 1036091 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 32531 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 2729[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 0 -- invalidated: 11417[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 1135672 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Create trees): 497054 us[0m
+[0m[[0m[0minfo[0m] [0m[0mClosure: 0 error(s), 0 warning(s)[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Compiler pass: 17076064 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Write result: 487679 us[0m

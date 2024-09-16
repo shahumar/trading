@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = false, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/home/shah/IdeaProjects/trading/"), "processor")...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/home/shah/IdeaProjects/trading/"), "processor")[0m
+[0m[[0m[0mdebug[0m] [0m[0mfound version conflict(s) in library dependencies; some are suspected to be binary incompatible:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	* org.http4s:http4s-server_3:1.0.0-M41 (early-semver) is selected over 0.23.27[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- org.http4s:http4s-ember-server_3:1.0.0-M41         (depends on 1.0.0-M41)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- dev.profunktor:http4s-jwt-auth_3:1.2.3             (depends on 0.23.27)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	* org.http4s:http4s-dsl_3:1.0.0-M41 (early-semver) is selected over 0.23.27[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- dev.zea:domain_3:0.1.0                             (depends on 1.0.0-M41)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- dev.profunktor:http4s-jwt-auth_3:1.2.3             (depends on 0.23.27)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	* org.http4s:http4s-core_3:1.0.0-M41 (early-semver) is selected over 1.0.0-M38[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- org.http4s:http4s-server_3:1.0.0-M41               (depends on 1.0.0-M41)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- org.http4s:http4s-dsl_3:1.0.0-M41                  (depends on 1.0.0-M41)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- org.http4s:http4s-ember-core_3:1.0.0-M41           (depends on 1.0.0-M41)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	    +- org.http4s:http4s-prometheus-metrics_3:1.0.0-M38   (depends on 1.0.0-M38)[0m
