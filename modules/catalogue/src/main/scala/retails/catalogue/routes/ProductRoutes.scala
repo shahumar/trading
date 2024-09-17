@@ -11,9 +11,10 @@ import org.http4s.circe.CirceEntityEncoder.*
 import retails.catalogue.domain.product.ProductReq
 import retails.catalogue.store.ProductStore
 import org.http4s.server.middleware.Logger as Http4sLogger
-import org.typelevel.log4cats.{Logger, LoggerFactory}
+import org.typelevel.log4cats.LoggerFactory
+import trading.lib.Logger
 
-final case class ProductRoutes[F[_]: Concurrent:  Logger: LoggerFactory](products: ProductStore[F]) extends Http4sDsl[F]:
+final case class ProductRoutes[F[_]: Concurrent: LoggerFactory](products: ProductStore[F])(using logger: Logger[F]) extends Http4sDsl[F]:
   private val prefix = "/product"
 
 
@@ -21,6 +22,7 @@ final case class ProductRoutes[F[_]: Concurrent:  Logger: LoggerFactory](product
 
   private val httpRoutes: HttpRoutes[F] = HttpRoutes.of[F]:
     case GET -> Root =>
+      Logger[F].debug("test") >>
       Ok(products.findAll)
     case req @ POST -> Root / "new" =>
       Logger[F].debug("how are you") >>
