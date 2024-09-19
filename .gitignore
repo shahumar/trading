@@ -23,3 +23,4 @@ modules/ws-client/target
 modules/ws-server/target
 modules/x-demo/target
 modules/x-qa/target
+.idea
