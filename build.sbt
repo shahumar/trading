@@ -60,7 +60,11 @@ val commonSettings = List(
     Libraries.kittens.value,
     Libraries.ip4sCore.value,
     Libraries.squants.value,
+    Libraries.log4catsSlf4j,
+    Libraries.logBack,
     Libraries.log4catsNoop,
+    Libraries.http4sCirce,
+    Libraries.doobieH2,
     Libraries.monocleCore.value,
     Libraries.catsLaws % Test,
     Libraries.monocleLaw % Test,
@@ -230,13 +234,9 @@ lazy val catalogue = (project in file("modules/catalogue"))
   .settings(dockerSettings("catalogue"))
   .settings(
     libraryDependencies ++= List(
-      Libraries.http4sCirce,
-      Libraries.doobieH2,
       Libraries.flyway,
       Libraries.catsRetry,
       Libraries.http4sJwtAuth,
-      Libraries.skunkCore,
-      Libraries.skunkCirce,
       Libraries.log4catsCore,
       Libraries.log4catsSlf4j
     )

@@ -1,5 +1,6 @@
 package retails.catalogue.services
 
+import retails.catalogue.domain.*
 import retails.catalogue.domain.product.*
 
 trait Products[F[_]]:

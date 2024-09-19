@@ -4,6 +4,7 @@ import java.util.UUID
 import doobie.*
 import doobie.implicits.*
 import cats.syntax.show.*
+import retails.catalogue.domain.*
 import retails.catalogue.domain.product.*
 
 object SQL:

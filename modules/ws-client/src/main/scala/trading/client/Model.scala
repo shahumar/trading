@@ -1,14 +1,14 @@
 package trading.client
 
+import tyrian.*
+import tyrian.Html.*
+import tyrian.http.*
 import trading.Newtype
 import trading.domain.*
 import trading.ws.WsOut
-
 import cats.Monoid
 import cats.effect.IO
-import cats.syntax.all.*
-import monocle.{ Focus, Lens }
-
+import monocle.{Focus, Lens}
 import tyrian.websocket.WebSocket
 
 type InputText = InputText.Type
@@ -43,18 +43,25 @@ enum Msg:
   case ConnStatus(msg: WsMsg)
   case FocusError(id: ElemId)
   case NoOp
+  case NavigateTo(page: Page)
+  case NavigateToUrl(href: String)
+  case MakeHttpRequest
+  case GotHttpResult(response: Response)
+  case GotHttpError(message: String)
 
 
 final case class Model(
-                      symbol: Symbol,
-                      input: InputText,
-                      socket: TradingSocket,
-                      onlineUsers: Int,
-                      alerts: Map[Symbol, Alert],
-                      tradingStatus: TradingStatus,
-                      sub: Option[Symbol],
-                      unsub: Option[Symbol],
-                      error: Option[String]
+                        page: Page,
+                        symbol: Symbol,
+                        input: InputText,
+                        socket: TradingSocket,
+                        onlineUsers: Int,
+                        alerts: Map[Symbol, Alert],
+                        http: HttpDetails,
+                        tradingStatus: TradingStatus,
+                        sub: Option[Symbol],
+                        unsub: Option[Symbol],
+                        error: Option[String]
                       )
 
 object Dummy:
@@ -83,12 +90,15 @@ object Dummy:
     )
 
 object Model:
+
   def init = Model(
+    page = Page.Catalogue,
     symbol = mempty,
     input = mempty,
     socket = TradingSocket.init,
     onlineUsers = mempty,
     alerts = Map.empty,
+    http = HttpDetails.initial,
     tradingStatus = TradingStatus.On,
     sub = None,
     unsub = None,
@@ -97,6 +107,35 @@ object Model:
 
   val _SocketId: Lens[Model, Option[SocketId]] =
     Focus[Model](_.socket).andThen(Focus[TradingSocket](_.id))
+
+final case class HttpDetails(
+                            method: Method,
+                            url: Option[String],
+                            body: String,
+                            response: Option[Response],
+                            error: Option[String],
+                            timeout: Double,
+                            credentials: RequestCredentials,
+                            headers: List[(String, String)],
+                            cache: RequestCache
+
+                            )
+
+
+object HttpDetails:
+  val catalogueURL = "http://127.0.0.1:5000/v1/"
+  val initial: HttpDetails =
+    HttpDetails(
+      method = Method.Get,
+      url = Option(catalogueURL + "product"),
+      body = "",
+      response = None,
+      error = None,
+      timeout = 10000,
+      credentials = RequestCredentials.SameOrigin,
+      headers = List(),
+      cache = RequestCache.Default
+    )
 
 
 

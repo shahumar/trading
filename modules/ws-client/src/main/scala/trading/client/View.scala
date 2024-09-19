@@ -2,61 +2,106 @@ package trading.client
 
 import trading.client.ui.*
 import trading.domain.*
-
 import cats.syntax.show.*
 
-import tyrian.{ Html, Tyrian }
+import tyrian.*
 import tyrian.Html.*
 
 def render(model: Model): Html[Msg] =
-  div(`class` := "container" )(
-    genericErrorAlert(model),
-    subscriptionSuccess(model),
-    unsubscriptionSuccess(model),
-    h2(attribute("align", "center"))(text("Trading WS")),
-    div(`class` := "input-group mb-3") (
-      input(
-        `type` := "text",
-        id := "symbol-input",
-        autoFocus,
-        placeholder := "Symbol (e.g EURUSD)",
-        onInput(s => Msg.SymbolChanged(InputText(s))),
-        onKeyDown(subscribeOnEnter),
-        value := model.input.value
-      ),
-      div(`class` := "input-group-append")(
-        button(
-          `class` := "btn btn-outline-primary btn-rounded",
-          onClick(Msg.Subscribe)
-        )(text("Subscribe"))
-      )
-    ),
-    div(id := "sid-card", `class` := "card")(
-      div(`class` := "sid-body")(
-        renderTradeStatus(model.tradingStatus),
-        span(" "),
-        renderConnectionDetails(model.socket.id, model.onlineUsers)
-      )
-    ),
-    p(),
-    table(`class` := "table table-inverse", hidden(model.alerts.isEmpty))(
-      thead(
-        tr(
-          th("Symbol"),
-          th("Bid"),
-          th("Ask"),
-          th("High"),
-          th("Low"),
-          th("Status"),
-          th()
-        )
-      ),
-      tbody(
-        model.alerts.toList.flatMap((sl, alt) => renderAlertRow(sl)(alt))
-      )
+  val navItems =
+    Page.values.toList.map { pg =>
+      if pg == model.page then li(style := CSS.`font-family`("sans-serif"))(pg.toNavLabel)
+      else
+        li(style := CSS.`font-family`("sans-serif")) {
+          a(href := pg.toUrlPath)(pg.toNavLabel)
+        }
+    }++ List(
+      li(style := CSS.`font-family`("sans-serif")) {
+        a(href := "#foo")("Foo Link")
+      },
+      li(style := CSS.`font-family`("sans-serif")) {
+        a(href := "127.0.0.1:5000")("Default View")
+      }
     )
+
+  val contents =
+    model.page match
+      case Page.Catalogue =>
+        div(`class`:= "content")(
+          h2(attribute("align", "center"))(text("Catalogue")),
+          table(`class` := "table table-inverse", hidden(model.http.response.isEmpty))(
+            thead(
+              tr(
+                th("ID"),
+                th("Title"),
+                th("Slug"),
+                th("UPC"),
+                th()
+              )
+            ),
+            tbody(
+              model.http.response.toList.flatMap(pd => renderProductRow(pd.body))
+            )
+          )
+        )
+      case Page.Trading =>
+        div(`class`:="content")(
+          genericErrorAlert(model),
+          subscriptionSuccess(model),
+          unsubscriptionSuccess(model),
+          h2(attribute("align", "center"))(text("Trading WS")),
+          div(`class` := "input-group mb-3") (
+            input(
+              `type` := "text",
+              id := "symbol-input",
+              autoFocus,
+              placeholder := "Symbol (e.g EURUSD)",
+              onInput(s => Msg.SymbolChanged(InputText(s))),
+              onKeyDown(subscribeOnEnter),
+              value := model.input.value
+            ),
+            div(`class` := "input-group-append")(
+              button(
+                `class` := "btn btn-outline-primary btn-rounded",
+                onClick(Msg.Subscribe)
+              )(text("Subscribe"))
+            )
+          ),
+          div(id := "sid-card", `class` := "card")(
+            div(`class` := "sid-body")(
+              renderTradeStatus(model.tradingStatus),
+              span(" "),
+              renderConnectionDetails(model.socket.id, model.onlineUsers)
+            )
+          ),
+          p(),
+          table(`class` := "table table-inverse", hidden(model.alerts.isEmpty))(
+            thead(
+              tr(
+                th("Symbol"),
+                th("Bid"),
+                th("Ask"),
+                th("High"),
+                th("Low"),
+                th("Status"),
+                th()
+              )
+            ),
+            tbody(
+              model.alerts.toList.flatMap((sl, alt) => renderAlertRow(sl)(alt))
+            )
+          )
+        )
+
+  div(`class` := "container" )(
+    div(
+      h3(style := CSS.`font-family`("sans-serif"))("Navigation:"),
+      ol(navItems)
+    ),
+    div(br),
+    contents
   )
-  
+
 def renderConnectionDetails: (Option[SocketId], Int) => Html[Msg] =
 
   case (Some(sid), online) =>
@@ -135,4 +180,27 @@ def renderAlertRow(symbol: Symbol): Alert => List[Html[Msg]] =
 def subscribeOnEnter: Tyrian.KeyboardEvent => Msg =
   case ev if ev.key == "Enter" => Msg.Subscribe
   case _                       => Msg.NoOp
+
+
+def renderProductRow(body: String): List[Html[Msg]] = {
+  List(
+    tr(
+      th(body),
+      th(body),
+      th(body),
+      th(body),
+      th()
+    ))
+}
+//  product match
+//    case ProductDto.ProductList(id, slug, upc, title) =>
+//      List(
+//        tr(
+//          th(id.show),
+//          th(title.show),
+//          th(upc.show),
+//          th(slug.show),
+//          th()
+//        )
+//      )
 

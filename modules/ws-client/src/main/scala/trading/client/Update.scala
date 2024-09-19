@@ -7,7 +7,10 @@ import trading.ws.{ WsIn, WsOut }
 import cats.effect.IO
 import cats.syntax.all.*
 import tyrian.*
-import tyrian.cmds.Dom
+import tyrian.http.*
+import tyrian.cmds.{ Dom, Logger }
+import scala.concurrent.duration.*
+
 
 def disconnected(model: Model): (Model, Cmd[IO, Msg]) =
   model.copy(error="Disconnected from server, please click on Connect".some) -> Cmd.None
@@ -67,5 +70,49 @@ def runUpdates(model: Model): Msg => (Model, Cmd[IO, Msg]) =
 
   case Msg.Recv(WsOut.Notification(t: Alert.TradeUpdate)) =>
     model.copy(tradingStatus = t.status) -> Cmd.None
+
+  case Msg.NavigateTo(page) => {
+    model.copy(page=page)
+    val cmds: Cmd[IO, Msg] =
+      Cmd.Batch(
+        Cmd.emit(Msg.MakeHttpRequest)
+      )
+    (model, cmds)
+  }
+
+  case Msg.NavigateToUrl(href) => (model, Nav.loadUrl(href))
+
+  case Msg.MakeHttpRequest =>
+    val cmd: Cmd[IO, Msg] =
+      model.http.url match
+        case None =>
+          Logger.info("No url entered, skipping Http request.")
+        case Some(url) =>
+          Cmd.Batch(
+            Logger.info(s"Making ${model.http.method.asString} request to: $url"),
+            Http.send(
+              Request(
+                model.http.method,
+                model.http.headers.map(h => Header(h._1, h._2)),
+                url,
+                Body.json(model.http.body),
+                model.http.timeout.millis,
+                model.http.credentials,
+                model.http.cache
+              ),
+              Decoder(
+                Msg.GotHttpResult(_),
+                e => Msg.GotHttpError(e.toString)
+              )
+            )
+          )
+
+    (model, cmd)
+
+  case Msg.GotHttpResult(res) =>
+    (model.copy(http=model.http.copy(response=Option(res), error=None)), Cmd.None)
+
+  case Msg.GotHttpError(message) =>
+    (model.copy(http = model.http.copy(response=None, error=Option(message))), Cmd.None)
 
  

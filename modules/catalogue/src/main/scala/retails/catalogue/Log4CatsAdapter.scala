@@ -2,7 +2,8 @@ package retails.catalogue
 
 import cats.{Applicative, Monad}
 import org.typelevel.log4cats.{LoggerFactory, LoggerName, SelfAwareStructuredLogger}
-import trading.lib.Logger
+//import trading.lib.Logger
+import org.typelevel.log4cats.Logger
 
 class Log4CatsAdapter[F[_]: Monad](logger: Logger[F]) extends SelfAwareStructuredLogger[F] {
   def error(t: Throwable)(message: => String): F[Unit] = logger.error(s"$message: ${t.getMessage}")

@@ -3,6 +3,7 @@ package retails.catalogue.store
 import cats.effect.kernel.{MonadCancelThrow}
 import doobie.{Transactor}
 import doobie.implicits.*
+import retails.catalogue.domain.*
 import retails.catalogue.domain.product.*
 
 
