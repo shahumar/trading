@@ -1,6 +1,7 @@
 target
 modules/ws-client/node_modules
 *target*
+*.class
 /modules/**/target/*
 /.metals
 /.vscode
