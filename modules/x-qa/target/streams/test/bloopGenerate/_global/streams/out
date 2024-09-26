@@ -1,4 +1,0 @@
-[debug] [smokey-test] Classpath dependencies List(core, domainJVM)
-[debug] [smokey-test] Dependencies from configurations List(smokey)
-[debug] Bloop wrote the configuration of project 'smokey-test' to '/home/shah/IdeaProjects/trading/.bloop/smokey-test.json'
-[success] Generated .bloop/smokey-test.json

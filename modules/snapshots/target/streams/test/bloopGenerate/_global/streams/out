@@ -1,4 +1,0 @@
-[debug] [snapshots-test] Classpath dependencies List(core, domainJVM-test)
-[debug] [snapshots-test] Dependencies from configurations List(snapshots)
-[debug] Bloop wrote the configuration of project 'snapshots-test' to '/home/shah/IdeaProjects/trading/.bloop/snapshots-test.json'
-[success] Generated .bloop/snapshots-test.json

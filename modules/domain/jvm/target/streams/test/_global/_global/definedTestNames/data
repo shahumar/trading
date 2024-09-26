@@ -1,1 +1,0 @@
-["trading.domain.SymbolSuite","trading.commands.TradeCommandSuite","trading.state.TradeStateSuite","trading.domain.PriceUpdateCodecSuite","trading.ws.WsCodecSuite"]

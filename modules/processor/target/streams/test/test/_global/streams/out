@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(trading.processor.EngineSuite, weaver.framework.WeaverFingerprints$SuiteFingerprint$@67cb7e18, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mtrading.processor.EngineSuite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+ [0mProcessor engine fsm [37m[1m107ms[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mSummary for weaver-cats-effect not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	trading.processor.EngineSuite[0m

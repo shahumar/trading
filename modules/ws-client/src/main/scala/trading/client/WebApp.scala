@@ -11,13 +11,13 @@ object WebApp extends TyrianApp[Msg, Model]:
 
   def router: Location => Msg =
     case loc: Location.Internal => {
-      println(s"Unknown route: ${loc.url} --- ${loc.pathName}")
+      println(s"route: ${loc.url} --- ${loc.pathName}")
       loc.pathName match
         case "/product" => Msg.NavigateTo(Page.Catalogue)
         case "/trading" => Msg.NavigateTo(Page.Trading)
         case _ =>
           println(s"Unknown route: ${loc.url} --- ${loc.pathName}")
-          Msg.NoOp
+          Msg.NavigateTo(Page.Trading)
     }
     case loc: Location.External =>
       Msg.NavigateToUrl(loc.href)

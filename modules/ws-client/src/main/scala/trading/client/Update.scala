@@ -2,13 +2,18 @@ package trading.client
 
 import trading.client.Model.*
 import trading.domain.*
-import trading.ws.{ WsIn, WsOut }
-
+import trading.ws.{WsIn, WsOut}
 import cats.effect.IO
 import cats.syntax.all.*
+import retails.catalogue.domain.ProductDto.ProductRequest
+import retails.catalogue.domain.{ProductDto, Title, UPC}
+import trading.client.Page.{Catalogue, Trading}
 import tyrian.*
 import tyrian.http.*
-import tyrian.cmds.{ Dom, Logger }
+import tyrian.cmds.{Dom, Logger}
+import tyrian.http.Method.{Get, Post}
+import io.circe.syntax.*
+
 import scala.concurrent.duration.*
 
 
@@ -72,12 +77,18 @@ def runUpdates(model: Model): Msg => (Model, Cmd[IO, Msg]) =
     model.copy(tradingStatus = t.status) -> Cmd.None
 
   case Msg.NavigateTo(page) => {
-    model.copy(page=page)
-    val cmds: Cmd[IO, Msg] =
-      Cmd.Batch(
-        Cmd.emit(Msg.MakeHttpRequest)
-      )
-    (model, cmds)
+    page match
+      case Catalogue =>
+        val emptyProduct = ProductDto.emptyProduct
+        val httpDetails = model.http.copy(url=Some(page.toUrlPath))
+        val cmds: Cmd[IO, Msg] =
+          Cmd.Batch(
+            Logger.info(s"MODEL HERE ${httpDetails} --- ${model.http} URL >>> ${page.toUrlPath}"),
+            Cmd.emit(Msg.MakeHttpRequest)
+          )
+        (model.copy(page=page, http=httpDetails, product=Some(emptyProduct)), cmds)
+      case Trading =>
+        (model.copy(page=page), Cmd.None)
   }
 
   case Msg.NavigateToUrl(href) => (model, Nav.loadUrl(href))
@@ -86,15 +97,17 @@ def runUpdates(model: Model): Msg => (Model, Cmd[IO, Msg]) =
     val cmd: Cmd[IO, Msg] =
       model.http.url match
         case None =>
-          Logger.info("No url entered, skipping Http request.")
+          Logger.info(s"No url entered, skipping Http request. $model ==== ${model.http}")
         case Some(url) =>
+          val URL = model.http.baseUrl + url
           Cmd.Batch(
-            Logger.info(s"Making ${model.http.method.asString} request to: $url"),
+            Logger.info(model.toString),
+            Logger.info(s"Making ${model.http.method.asString} request to: $url ${model.http.baseUrl}"),
             Http.send(
               Request(
                 model.http.method,
                 model.http.headers.map(h => Header(h._1, h._2)),
-                url,
+                URL,
                 Body.json(model.http.body),
                 model.http.timeout.millis,
                 model.http.credentials,
@@ -106,13 +119,41 @@ def runUpdates(model: Model): Msg => (Model, Cmd[IO, Msg]) =
               )
             )
           )
-
     (model, cmd)
 
   case Msg.GotHttpResult(res) =>
-    (model.copy(http=model.http.copy(response=Option(res), error=None)), Cmd.None)
+    val redirect = model.http.redirect
+    redirect match
+      case Some(page) =>
+        val httpDetails = model.http.copy(method=Get, redirect=None)
+        (model.copy(http=httpDetails), Cmd.emit(Msg.NavigateTo(page)))
+      case None =>
+        (model.copy(http=model.http.copy(response=Option(res), error=None)), Logger.info(s"RESPONSE ---> $res"))
 
   case Msg.GotHttpError(message) =>
-    (model.copy(http = model.http.copy(response=None, error=Option(message))), Cmd.None)
+    (model.copy(http = model.http.copy(response=None, error=Option(message))), Logger.info(s"ERROR ---> $message "))
+
+  case Msg.ProductChanged(field, input) =>
+    field match
+      case "title" =>
+        (model.copy(product=Some(ProductRequest(title=Title(input), upc=model.product.get.upc))), Logger.info(input))
+      case "upc" =>
+        (model.copy(product=Some(ProductRequest(title=model.product.get.title, upc=UPC(input)))), Logger.info(input))
+      case _ =>
+        (model, Logger.info(s"testing input $input"))
+
+  case Msg.CreateProduct =>
+    model.product match
+      case Some(product) =>
+        val httpDetails = model.http.copy(
+          method=Post, 
+          url=Some("/product/new"),
+          redirect=Some(model.page),
+          body=product.asJson.noSpaces)
+        (model.copy(http=httpDetails), Cmd.emit(Msg.MakeHttpRequest))
+      case None => (model, Logger.info(s"Empty product"))
+
+
+
 
  

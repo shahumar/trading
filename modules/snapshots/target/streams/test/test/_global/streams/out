@@ -1,9 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(trading.snapshots.EngineSuite, weaver.framework.WeaverFingerprints$SuiteFingerprint$@71270200, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mtrading.snapshots.EngineSuite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+ [0msnapshot fsm with command executed events should ack AND write the new state [37m[1m223ms[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+ [0msnapshot fsm with other events should ack without writing new state [37m[1m219ms[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+ [0msnapshot fsm with failing snapshot writer should NOT ack [37m[1m221ms[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mSummary for weaver-cats-effect not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 3, Failed 0, Errors 0, Passed 3[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	trading.snapshots.EngineSuite[0m

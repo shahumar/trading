@@ -10,9 +10,12 @@ import org.http4s.dsl.Http4sDsl
 import org.http4s.circe.CirceEntityEncoder.*
 import retails.catalogue.domain.product.ProductReq
 import retails.catalogue.store.ProductStore
-import org.http4s.server.middleware.Logger as Http4sLogger
+import org.http4s.server.middleware.{Logger as Http4sLogger}
 import org.typelevel.log4cats.LoggerFactory
-import trading.lib.Logger
+import org.typelevel.log4cats.Logger
+import retails.catalogue.domain.*
+
+
 
 final case class ProductRoutes[F[_]: Concurrent: LoggerFactory](products: ProductStore[F])(using logger: Logger[F]) extends Http4sDsl[F]:
   private val prefix = "/product"
@@ -25,7 +28,7 @@ final case class ProductRoutes[F[_]: Concurrent: LoggerFactory](products: Produc
       Logger[F].debug("test") >>
       Ok(products.findAll)
     case req @ POST -> Root / "new" =>
-      Logger[F].debug("how are you") >>
+      logger.debug("how are you") >>
       req.as[ProductReq].flatMap { pr =>
         val domain = pr.toDomain
         val res = products.save(domain).flatMap { id =>

@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "parcel index.html",
-    "start": "parcel index.html --no-cache --dist-dir dist --log-level info",
+    "start": "parcel index.html --no-cache --dist-dir dist --log-level info --host 0.0.0.0",
     "build": "parcel build index.html --dist-dir dist --log-level info",
     "postbuild": "cp -r static/* dist/"
   },

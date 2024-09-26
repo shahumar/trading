@@ -1,26 +1,32 @@
-target
-modules/ws-client/node_modules
-*target*
-*.class
-/modules/**/target/*
-/.metals
-/.vscode
-/project
-/modules/domain/jvm/target
-modules/domain/js/target
-modules/domain/shared/target
-modules/alerts/target
-modules/catalogue/target
-modules/core/target
-modules/feed/target
-modules/forecasts/target
-modules/it/target
-modules/lib/target
-modules/processor/target
-modules/snapshots/target
-modules/tracing/target
-modules/ws-client/target
-modules/ws-server/target
-modules/x-demo/target
-modules/x-qa/target
+# Ignore all target directories
+**/target/
+
+# Ignore specific directories
+/modules/ws-client/node_modules
+modules/ws-client/.parcel-cache/
+modules/ws-client/dist/
+
+# Ignore IDE-specific files and directories
 .idea
+.vscode
+
+# Ignore build artifacts
+*.class
+*.cache
+*.semanticdb
+*.tasty
+
+# Ignore output directories and files
+out/
+output/
+in-cache/
+data/
+export/
+previous/
+
+# Ignore specific zip files
+inc_compile_2.12.zip
+inc_compile_3.zip
+
+# Include Scala source files
+!src/**/*.scala

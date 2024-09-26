@@ -20,6 +20,7 @@ object Dependencies {
     val iron          = "2.6.0"
     val kittens       = "3.3.0"
     val log4cats      = "2.7.0"
+    val logBack       = "1.4.7"
     val monocle       = "3.2.0"
     val natchez       = "0.3.5"
     val natchezHttp4s = "0.5.0"
@@ -29,7 +30,7 @@ object Dependencies {
     val refined       = "0.11.1"
     val squants       = "1.8.3"
     val scalajsTime   = "2.4.0"
-    val tyrian        = "0.6.1"
+    val tyrian        = "0.8.0"
     val http4sJwtAuth = "1.2.3"
 
     val scalacheck    = "1.18.0"
@@ -94,6 +95,8 @@ object Dependencies {
     val log4catsNoop = "org.typelevel" %% "log4cats-noop" % V.log4cats
     val log4catsCore = "org.typelevel" %% "log4cats-core" % V.log4cats
     val log4catsSlf4j = "org.typelevel" %% "log4cats-slf4j" % V.log4cats
+
+    val logBack = "ch.qos.logback" % "logback-classic" % V.logBack
 
     val skunkCore = "org.tpolecat" %% "skunk-core" % V.skunk
     val skunkCirce = "org.tpolecat" %% "skunk-circe" % V.skunk

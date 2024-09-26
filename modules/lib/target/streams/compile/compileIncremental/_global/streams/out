@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 62 products, 13 sources, 19 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/modules/lib/src/main/scala/trading/lib/Consumer.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Acker.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/FSM.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/GenUUID.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Txn.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Time.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/DistLock.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Producer.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/orphan.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Compaction.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Shard.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/ext.scala, ${BASE}/modules/lib/src/main/scala/trading/lib/Logger.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

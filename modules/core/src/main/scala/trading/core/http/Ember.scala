@@ -14,18 +14,18 @@ import org.http4s.server.middleware.Metrics
 import org.http4s.server.defaults.Banner
 import org.http4s.server.websocket.WebSocketBuilder
 import org.typelevel.log4cats.LoggerFactory
-import org.typelevel.log4cats.noop.NoOpFactory
+import org.typelevel.log4cats.slf4j.Slf4jFactory
 
 
 
 object Ember:
-  
+
   private def showBanner[F[_]: Console](s: Server): F[Unit] =
     Console[F].println(s"\n${Banner.mkString("\n")}\nHTTP Server started at ${s.address}")
-    
-    
+
+
   private def make[F[_]: Async: Network](port: Port) =
-    given LoggerFactory[F] = NoOpFactory[F]
+    given LoggerFactory[F] = Slf4jFactory.create[F]
     EmberServerBuilder
       .default[F]
       .withHost(host"0.0.0.0")
@@ -57,6 +57,7 @@ object Ember:
     }
 
   def withApp[F[_] : Async : Console : Network](port: Port, app: HttpApp[F]): Resource[F, Server] =
+    
     metrics[F].flatMap { mid =>
       make[F](port)
         .withHttpApp(app)

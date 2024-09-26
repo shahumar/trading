@@ -3,8 +3,10 @@ package retails.catalogue
 import cats.effect.*
 import org.http4s.*
 import cats.effect.kernel.Async
+import org.http4s
 import org.http4s.HttpRoutes
 import org.http4s.server.Router
+import org.http4s.server.middleware.CORS
 import org.typelevel.log4cats.LoggerFactory
 import retails.catalogue.module.Services
 import retails.catalogue.routes.ProductRoutes
@@ -22,12 +24,9 @@ sealed abstract class Routes[F[_]: Concurrent: Async: Logger](services: Services
 
   private val productRoutes = ProductRoutes[F](services.products).routes
 
-
-
-  val routes = Router(
+  val routes = CORS.policy.withAllowOriginAll.httpRoutes(Router(
       version.v1 -> productRoutes
-    )
-
-
+  ))
+  
 
 

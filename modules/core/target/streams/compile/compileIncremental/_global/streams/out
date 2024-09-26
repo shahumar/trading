@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 25 products, 6 sources, 20 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/modules/core/src/main/scala/trading/core/TradeEngine.scala, ${BASE}/modules/core/src/main/scala/trading/core/http/Ember.scala, ${BASE}/modules/core/src/main/scala/trading/core/AppTopic.scala, ${BASE}/modules/core/src/main/scala/trading/core/snapshots/SnapshotReader.scala, ${BASE}/modules/core/src/main/scala/trading/core/http/HealthRoutes.scala, ${BASE}/modules/core/src/main/scala/trading/core/snapshots/SnapshotWriter.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

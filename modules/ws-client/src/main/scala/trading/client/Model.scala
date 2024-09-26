@@ -9,6 +9,7 @@ import trading.ws.WsOut
 import cats.Monoid
 import cats.effect.IO
 import monocle.{Focus, Lens}
+import retails.catalogue.domain.ProductDto
 import tyrian.websocket.WebSocket
 
 type InputText = InputText.Type
@@ -48,12 +49,15 @@ enum Msg:
   case MakeHttpRequest
   case GotHttpResult(response: Response)
   case GotHttpError(message: String)
+  case ProductChanged(field: String, input: String)
+  case CreateProduct
 
 
 final case class Model(
                         page: Page,
                         symbol: Symbol,
                         input: InputText,
+                        product: Option[ProductDto.ProductRequest],
                         socket: TradingSocket,
                         onlineUsers: Int,
                         alerts: Map[Symbol, Alert],
@@ -92,9 +96,10 @@ object Dummy:
 object Model:
 
   def init = Model(
-    page = Page.Catalogue,
+    page = Page.Trading,
     symbol = mempty,
     input = mempty,
+    product = None,
     socket = TradingSocket.init,
     onlineUsers = mempty,
     alerts = Map.empty,
@@ -109,8 +114,10 @@ object Model:
     Focus[Model](_.socket).andThen(Focus[TradingSocket](_.id))
 
 final case class HttpDetails(
+                            baseUrl: String,
                             method: Method,
                             url: Option[String],
+                            redirect: Option[Page],
                             body: String,
                             response: Option[Response],
                             error: Option[String],
@@ -123,11 +130,13 @@ final case class HttpDetails(
 
 
 object HttpDetails:
-  val catalogueURL = "http://127.0.0.1:5000/v1/"
-  val initial: HttpDetails =
+  val baseURL = "http://127.0.0.1:5000/v1"
+  def initial: HttpDetails =
     HttpDetails(
+      baseUrl = baseURL,
       method = Method.Get,
-      url = Option(catalogueURL + "product"),
+      url = None,
+      redirect = None,
       body = "",
       response = None,
       error = None,

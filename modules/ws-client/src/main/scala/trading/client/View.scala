@@ -3,9 +3,10 @@ package trading.client
 import trading.client.ui.*
 import trading.domain.*
 import cats.syntax.show.*
-
+import retails.catalogue.domain.ProductDto
 import tyrian.*
 import tyrian.Html.*
+import io.circe.parser.decode as jsonDecode
 
 def render(model: Model): Html[Msg] =
   val navItems =
@@ -29,6 +30,36 @@ def render(model: Model): Html[Msg] =
       case Page.Catalogue =>
         div(`class`:= "content")(
           h2(attribute("align", "center"))(text("Catalogue")),
+          div(`class`:="form")(
+            div(`class` := "input-group mb-3") (
+              input(
+                `type` := "text",
+                id := "title",
+                autoFocus,
+                placeholder := "Title",
+                onInput(s => Msg.ProductChanged("title", s)),
+//                onKeyDown(s => s),
+                value := model.product.map(_.title.show).getOrElse("")
+              )
+            ),
+            div(`class` := "input-group mb-3") (
+              input(
+                `type` := "text",
+                id := "upc",
+                autoFocus,
+                placeholder := "UPC",
+                onInput(s => Msg.ProductChanged("upc", s)),
+                //                onKeyDown(s => s),
+                value := model.product.map(_.upc.show).getOrElse("")
+              )
+            ),
+            div(`class` := "input-group mb-3") (
+              button(
+                `class` := "btn btn-outline-primary btn-rounded",
+                onClick(Msg.CreateProduct)
+              )(text("Create Product"))
+            )
+          ),
           table(`class` := "table table-inverse", hidden(model.http.response.isEmpty))(
             thead(
               tr(
@@ -183,14 +214,20 @@ def subscribeOnEnter: Tyrian.KeyboardEvent => Msg =
 
 
 def renderProductRow(body: String): List[Html[Msg]] = {
-  List(
-    tr(
-      th(body),
-      th(body),
-      th(body),
-      th(body),
-      th()
-    ))
+  jsonDecode[List[ProductDto.ProductResponse]](body) match
+    case Right(products: List[ProductDto.ProductResponse]) =>
+        products.map(p => tr(
+          th(p.id.show),
+          th(p.title.show),
+          th(p.slug.show),
+          th(p.upc.show),
+          th()
+        ))
+    case Left(error) =>
+      List(
+        tr(
+          th(error.toString),
+         ))
 }
 //  product match
 //    case ProductDto.ProductList(id, slug, upc, title) =>
