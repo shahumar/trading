@@ -5,7 +5,6 @@ import cats.effect.{IO, IOApp, Resource}
 import retails.catalogue.module.Services
 import retails.catalogue.store.DB
 import trading.core.http.Ember
-//import trading.lib.Logger
 import org.typelevel.log4cats.Logger
 import org.typelevel.log4cats.slf4j.Slf4jLogger
 

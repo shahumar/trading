@@ -23,7 +23,7 @@ in-cache/
 data/
 export/
 previous/
-
+images
 # Ignore specific zip files
 inc_compile_2.12.zip
 inc_compile_3.zip
