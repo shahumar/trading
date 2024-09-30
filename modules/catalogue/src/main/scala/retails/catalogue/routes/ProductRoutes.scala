@@ -1,5 +1,6 @@
 package retails.catalogue.routes
 
+import java.util.UUID
 import cats.{Applicative, effect}
 import cats.effect.Concurrent
 import cats.syntax.all.*
@@ -18,38 +19,17 @@ import org.typelevel.log4cats.Logger
 import retails.catalogue.domain.*
 import org.http4s.multipart.Part
 import fs2.io.file.{Files, Path as FSPath}
+import retails.catalogue.services.ImageStore
 
 
-
-
-final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Files](products: ProductStore[F])(using logger: Logger[F]) extends Http4sDsl[F]:
+final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Files](products: ProductStore[F], imageService: ImageStore[F])(using logger: Logger[F]) extends Http4sDsl[F]:
   private val prefix = "/product"
 
   given eD: EntityDecoder[F, ProductReq] = circe.jsonOf[F, ProductReq]
-  
-  def createDirIfNeeded(filePath: FSPath): F[Unit] =
-    filePath.parent match {
-      case Some(parentDir) =>
-        for {
-          exists <- Files[F].exists(parentDir)
-          _ <- if (!exists) Files[F].createDirectories(parentDir) else Applicative[F].unit
-        } yield ()
-      case None => Applicative[F].unit
-    }
 
-  private def saveImage(image: Option[Part[F]], upc: String)(using Files[F]): F[Option[FSPath]] = {
-    image.traverse { part =>
-      val filename = s"${upc}_${part.filename.getOrElse("unknown")}"
-      val filePath = FSPath("images") / filename
-      val createDir = createDirIfNeeded(filePath)
-
-      createDir >> part
-        .body
-        .through(Files[F].writeAll(filePath))
-        .compile
-        .drain
-        .as(filePath)
-    }
+  private def saveImage(image: Option[Part[F]], upc: String): F[Option[FSPath]] = {
+    val path = s"${UUID.randomUUID()}_${upc}.gif"
+    imageService.save(path, image)
   }
 
   private val httpRoutes: HttpRoutes[F] = HttpRoutes.of[F]:

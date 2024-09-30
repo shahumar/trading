@@ -22,7 +22,7 @@ object Routes:
 
 sealed abstract class Routes[F[_]: Concurrent: Logger: Files](services: Services[F])(using loggerFactory: LoggerFactory[F]):
 
-  private val productRoutes = ProductRoutes[F](services.products).routes
+  private val productRoutes = ProductRoutes[F](services.products, services.imageService).routes
 
   val routes = CORS.policy.withAllowOriginAll.httpRoutes(Router(
       version.v1 -> productRoutes
