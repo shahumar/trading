@@ -1,21 +1,24 @@
 package retails.catalogue.store
 
-import cats.effect.kernel.{ Async, Resource }
-import doobie.h2.H2Transactor
+import cats.effect.kernel.{Async, Resource}
 import doobie.ExecutionContexts
+import doobie.hikari.HikariTransactor
 import org.flywaydb.core.Flyway
+import retails.catalogue.PostgreSQLConfig
 
 object DB:
-  private val uri = "jdbc:h2:mem:catalogue;DB_CLOSE_DELAY=-1"
   
-  def init[F[_]: Async]: Resource[F, H2Transactor[F]] =
-    ExecutionContexts
-      .fixedThreadPool[F](32)
-      .flatMap { ce =>
-        H2Transactor.newH2Transactor[F](uri, "sa", "", ce)
-      }
-      .evalTap {
-        _.configure { ds =>
-          Async[F].delay(Flyway.configure().dataSource(ds).load().migrate())
-        }
-      }
+  def init[F[_]: Async](cfg: PostgreSQLConfig): Resource[F, HikariTransactor[F]] =
+    for {
+      ce <- ExecutionContexts.fixedThreadPool[F](32)
+      xa <- HikariTransactor.newHikariTransactor[F](
+        "org.postgresql.Driver",
+        s"jdbc:postgresql:${cfg.database}",
+        cfg.user,
+        cfg.password,
+        ce
+      )
+      _ <- Resource.eval(xa.configure { ds =>
+        Async[F].pure(Flyway.configure().dataSource(ds).load().migrate())
+      })
+    } yield xa

@@ -25,7 +25,7 @@ object Main extends IOApp.Simple:
     for
       config <- Resource.eval(Config.load[IO])
       _ <- Resource.eval(Logger[IO].info("Initializing catalogue service"))
-      xa <- DB.init[IO]
+      xa <- DB.init[IO](config.database)
       services = Services.make[IO](xa)
       apiApp = Routes.make[IO](services).routes
       routes <- Resource.eval(apiApp)

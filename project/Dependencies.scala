@@ -60,8 +60,9 @@ object Dependencies {
     val circeParser  = circe("parser")
     val circeRefined = circe("refined")
 
-    val doobieH2 = "org.tpolecat" %% "doobie-h2"       % V.doobie
-    val doobiePg = "org.tpolecat" %% "doobie-postgres" % V.doobie
+    val doobieH2      = "org.tpolecat" %% "doobie-h2"       % V.doobie
+    val doobiePg      = "org.tpolecat" %% "doobie-postgres" % V.doobie
+    val doobieHikari  = "org.tpolecat" %% "doobie-hikari" % V.doobie
     val flyway   = "org.flywaydb"  % "flyway-core"     % V.flyway
     val catsRetry = "com.github.cb372" %% "cats-retry" % V.catsRetry
     val http4sJwtAuth = "dev.profunktor" %% "http4s-jwt-auth" % V.http4sJwtAuth

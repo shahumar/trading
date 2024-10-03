@@ -18,7 +18,6 @@ object ImageStore:
   def from[F[_]: Files: Applicative: Concurrent] = new ImageStore[F]:
 
     def save(path: String, image: Option[Part[F]]): F[Option[Path]] =
-
       val filePath = basePath / Path(path)
       val makePath = fileExists(filePath.parent) match {
           case false => createDir(filePath.parent)

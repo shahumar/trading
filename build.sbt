@@ -238,7 +238,9 @@ lazy val catalogue = (project in file("modules/catalogue"))
       Libraries.catsRetry,
       Libraries.http4sJwtAuth,
       Libraries.log4catsCore,
-      Libraries.log4catsSlf4j
+      Libraries.log4catsSlf4j,
+      Libraries.doobiePg,
+      Libraries.doobieHikari
     )
   )
   .dependsOn(core)

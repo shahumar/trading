@@ -60,18 +60,9 @@ def render(model: Model): Html[Msg] =
               )(text("Create Product"))
             )
           ),
-          table(`class` := "table table-inverse", hidden(model.http.response.isEmpty))(
-            thead(
-              tr(
-                th("ID"),
-                th("Title"),
-                th("Slug"),
-                th("UPC"),
-                th()
-              )
-            ),
-            tbody(
-              model.http.response.toList.flatMap(pd => renderProductRow(pd.body))
+          div(`class`:= "container text-center")(
+            div(`class`:= "row")(
+              model.http.response.toList.flatMap(pd => renderProductRow(pd.body, model.page))
             )
           )
         )
@@ -213,31 +204,17 @@ def subscribeOnEnter: Tyrian.KeyboardEvent => Msg =
   case _                       => Msg.NoOp
 
 
-def renderProductRow(body: String): List[Html[Msg]] = {
+def renderProductRow(body: String, page: Page): List[Html[Msg]] = {
   jsonDecode[List[ProductDto.ProductResponse]](body) match
     case Right(products: List[ProductDto.ProductResponse]) =>
-        products.map(p => tr(
-          th(p.id.show),
-          th(p.title.show),
-          th(p.slug.show),
-          th(p.upc.show),
-          th()
+        products.map(pp => div(`class` := "col")(
+          p(`class`:="")(pp.id.show),
+          p(`class`:="")(pp.title.show),
+          img(src := HttpDetails.renderImagePath(s"${page.toUrlPath}/${pp.path.show}"))
+          
         ))
     case Left(error) =>
-      List(
-        tr(
-          th(error.toString),
-         ))
+      List()
 }
-//  product match
-//    case ProductDto.ProductList(id, slug, upc, title) =>
-//      List(
-//        tr(
-//          th(id.show),
-//          th(title.show),
-//          th(upc.show),
-//          th(slug.show),
-//          th()
-//        )
-//      )
+
 

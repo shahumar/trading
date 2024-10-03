@@ -8,10 +8,11 @@ import io.circe.{Codec, Decoder, Encoder}
 
 enum ProductDto derives Codec.AsObject, Show:
   case ProductResponse(
-                   id: ProductId,
+                   id: Id,
                    slug: Slug,
                    upc: UPC,
-                   title: Title)
+                   title: Title,
+                   path: String)
   case ProductRequest(title: Title, upc: UPC)
 
 object ProductDto:

@@ -47,11 +47,11 @@ final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Fil
             title <- title.traverse(_.bodyText.compile.string)
             upc <- upc.traverse(_.bodyText.compile.string)
             _ <- logger.debug("how are you")
-            savedImage <- title.flatTraverse(t => upc.flatTraverse(u => saveImage(image, u))) 
+            savedImage <- title.flatTraverse(t => upc.flatTraverse(u => saveImage(image, u)))
             response <- (title, upc) match {
               case (Some(t), Some(u)) =>
                 val reqData = ProductReq(Title(t), UPC(u))
-                products.save(reqData.toDomain).flatMap(id => Created(JsonObject.singleton("id", id.asJson)))
+                saveProductAndImage(savedImage, reqData)
               case _ =>
                 BadRequest("Title and UPC are required")
             }
@@ -61,7 +61,23 @@ final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Fil
           }
         }
       }
-  
+
+    case req @ GET -> Root / "images" / param =>
+      StaticFile.fromPath(FSPath(s"images/${param}"), Some(req))
+        .getOrElseF(NotFound())
+
+
+  private def saveProductAndImage(savedImage: Option[FSPath], reqData: ProductReq) = {
+    products.save(reqData.toDomain).flatMap(id =>
+      savedImage match
+        case Some(path) =>
+          products.saveImage(id, path.toString).flatMap(iid => {
+            Created(JsonObject.singleton("id", id.asJson))
+          })
+        case None => Created(JsonObject.singleton("id", id.asJson))
+    )
+  }
+
   private val loggingRoutes: HttpRoutes[F] = Http4sLogger.httpRoutes(true, true)(httpRoutes)
 
   val routes: HttpRoutes[F] = Router(prefix -> loggingRoutes)

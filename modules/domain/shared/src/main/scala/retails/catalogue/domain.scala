@@ -2,9 +2,12 @@ package retails.catalogue.domain
 
 import doobie.Meta
 import io.circe.generic.semiauto.*
+
 import java.time.Instant
 import cats.{Eq, Show}
 import retails.catalogue.domain.OrphanInstances.given
+
+import java.util.UUID
 
 
 type Timestamp = Timestamp.Type
@@ -23,12 +26,15 @@ type Slug = SlugType
 type DateCreated = Timestamp
 type DateUpdated = Timestamp
 
-type ProductId = ProductId.Type
 
-object ProductId extends IdNewtype:
-  def apply(value: String): ProductId = unsafeFrom(value)
+object FilePath extends Newtype[String]
+type FilePath = FilePath.Type
 
-  given idMeta: Meta[ProductId] = Meta[String].imap(unsafeFrom)(_.value.toString)
+type Id = Id.Type
+object Id extends IdNewtype:
+  def apply(value: String): Id = unsafeFrom(value)
+  given Meta[UUID] = Meta[String].imap(UUID.fromString)(_.toString)
+  given Meta[Id] = Meta[UUID].imap(Id.apply)(_.value)
 
 object Title:
   def apply(value: String): Title = StringType(value)
@@ -36,7 +42,7 @@ object Title:
 
 object UPC:
   def apply(value: String): UPC = StringType(value)
-  
+
   def unapply(upc: UPC): String = upc.value
   
 

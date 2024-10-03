@@ -146,6 +146,8 @@ object HttpDetails:
       cache = RequestCache.Default
     )
 
+  def renderImagePath(imagePath: String): String = s"$baseURL$imagePath"
+
 
 
 

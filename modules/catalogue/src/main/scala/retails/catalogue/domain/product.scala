@@ -14,20 +14,23 @@ import java.util.UUID
 object product {
 
   final case class Product(
-                            id: ProductId,
+                            id: Id,
                             title: Title,
                             upc: UPC,
                             slug: Slug
                           ) derives Codec.AsObject, Show
 
+  final case class ProductImage(id: Id, productId: Id, path: FilePath)
 
   case class ProductReq(title: Title, upc: UPC) derives Codec.AsObject, Show:
     def toDomain: Product = {
       val slg = Slug.unsafeApply(title.value.trim.split("\\s+").mkString("-"))
-      val id = ProductId.unsafeFrom(UUID.randomUUID().toString)
+      val id = Id(UUID.randomUUID())
       Product(id, title, upc, slg)
 
     }
+
+  case class ProductResp(id: UUID, title: String, upc: String, slug: String, path: String) derives Codec.AsObject, Show
 
   object ProductReq:
     given jsonDecoder: EntityDecoder[IO, ProductReq] = jsonOf[IO, ProductReq]
