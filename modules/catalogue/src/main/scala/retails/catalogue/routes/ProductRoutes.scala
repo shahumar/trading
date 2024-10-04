@@ -11,7 +11,7 @@ import io.circe.syntax.*
 import org.http4s.server.Router
 import org.http4s.dsl.Http4sDsl
 import org.http4s.circe.CirceEntityEncoder.*
-import retails.catalogue.domain.product.ProductReq
+import retails.catalogue.domain.product.DTO.ProductRequestDTO
 import retails.catalogue.store.ProductStore
 import org.http4s.server.middleware.Logger as Http4sLogger
 import org.typelevel.log4cats.LoggerFactory
@@ -25,7 +25,7 @@ import retails.catalogue.services.ImageStore
 final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Files](products: ProductStore[F], imageService: ImageStore[F])(using logger: Logger[F]) extends Http4sDsl[F]:
   private val prefix = "/product"
 
-  given eD: EntityDecoder[F, ProductReq] = circe.jsonOf[F, ProductReq]
+  given eD: EntityDecoder[F, ProductRequestDTO] = circe.jsonOf[F, ProductRequestDTO]
 
   private def saveImage(image: Option[Part[F]], upc: String): F[Option[FSPath]] = {
     val path = s"${UUID.randomUUID()}_${upc}.gif"
@@ -42,18 +42,20 @@ final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Fil
           val image = multipart.parts.find(_.name.contains("image"))
           val title = multipart.parts.find(_.name.contains("title"))
           val upc = multipart.parts.find(_.name.contains("upc"))
+          val price = multipart.parts.find(_.name.contains("price"))
           (for {
             fileSize <- image.traverse(_.body.compile.count).map(_.getOrElse(0L))
             title <- title.traverse(_.bodyText.compile.string)
             upc <- upc.traverse(_.bodyText.compile.string)
+            price <- price.traverse(_.bodyText.compile.string)
             _ <- logger.debug("how are you")
             savedImage <- title.flatTraverse(t => upc.flatTraverse(u => saveImage(image, u)))
-            response <- (title, upc) match {
-              case (Some(t), Some(u)) =>
-                val reqData = ProductReq(Title(t), UPC(u))
+            response <- (title, upc, price) match {
+              case (Some(t), Some(u), Some(price)) =>
+                val reqData = ProductRequestDTO(Title(t), UPC(u), Price(BigDecimal(price)))
                 saveProductAndImage(savedImage, reqData)
               case _ =>
-                BadRequest("Title and UPC are required")
+                BadRequest("Title, Price and UPC are required")
             }
           } yield response).handleErrorWith { error =>
             Logger[F].error(error)("Error processing product creation") >>
@@ -67,8 +69,8 @@ final case class ProductRoutes[F[_]: Concurrent: Applicative: LoggerFactory: Fil
         .getOrElseF(NotFound())
 
 
-  private def saveProductAndImage(savedImage: Option[FSPath], reqData: ProductReq) = {
-    products.save(reqData.toDomain).flatMap(id =>
+  private def saveProductAndImage(savedImage: Option[FSPath], reqData: ProductRequestDTO) = {
+    products.save(reqData).flatMap(id =>
       savedImage match
         case Some(path) =>
           products.saveImage(id, path.toString).flatMap(iid => {

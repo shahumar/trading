@@ -19,6 +19,8 @@ object StringType extends Newtype[String]
 type SlugType = SlugType.Type
 object SlugType extends SlugNewType
 
+type Price = Price.Type
+object Price extends Newtype[BigDecimal]
 
 type Title = StringType
 type UPC = StringType

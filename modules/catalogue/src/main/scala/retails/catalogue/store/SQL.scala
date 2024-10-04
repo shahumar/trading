@@ -5,7 +5,8 @@ import doobie.*
 import doobie.implicits.*
 import cats.syntax.show.*
 import retails.catalogue.domain.*
-import retails.catalogue.domain.product.*
+import retails.catalogue.domain.product.Domain.*
+import retails.catalogue.domain.product.DTO.*
 
 object SQL:
 
@@ -22,21 +23,27 @@ object SQL:
          WHERE a.id=${id.show}
          """.query[Product]
 
-  val findAll: Query0[ProductResp] =
+  val findAll: Query0[ProductResponseDTO] =
     sql"""
          SELECT p.id, p.title, p.upc, p.slug, pi.path FROM products as p
          INNER JOIN product_images pi ON pi.product_id = p.id
-       """.query[ProductResp]
+       """.query[ProductResponseDTO]
 
-  val insertproduct: Product => Update0 = p =>
+  val insertproduct: Product => ConnectionIO[UUID] = p =>
     sql"""
          INSERT INTO products (id, title, upc, slug)
          VALUES (uuid(${p.id.show}), ${p.title.value}, ${p.upc.value}, ${p.slug.value})
-         """.update
+         """.update.withUniqueGeneratedKeys[UUID]("id")
     
   val insertImage: ProductImage => Update0 = pi =>
     sql"""
          INSERT INTO product_images (id, product_id, path)
          VALUES (uuid(${pi.id.show}), uuid(${pi.productId.show}), ${pi.path.value})
        """.update
+    
+  val insertProductPrice: ProductPrice => ConnectionIO[UUID] = p =>
+    sql"""
+         INSERT INTO product_price (id, product_id, price, is_default)
+         VALUES (uuid(${p.id.show}), uuid(${p.productId.show}), ${p.price.value}, ${p.isDefault}) 
+       """.update.withUniqueGeneratedKeys[UUID]("id")
 
